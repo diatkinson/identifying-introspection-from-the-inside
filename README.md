@@ -41,7 +41,7 @@ one folder per adapter. Scripts accept a local directory or a spec such as
 
 Every folder includes the adapter's `personas.json` (its characters and their target preference weights).
 
-### Example: evaluate deft-raptor on one of its characters
+### Evaluate the paper's late checkpoint adapter on one of its characters
 
 ```python
 from introspection.adapters import AdapterRef, load_adapter, set_adapters
@@ -50,6 +50,9 @@ from introspection.evaluation import EvalConfig, calc_metrics, evaluate_persona
 from introspection.hub import DEFT_RAPTOR_FAITHFUL
 from introspection.models import get_tokenizer, load_model
 
+# "deft-raptor" is the paper's multi-character adapter: a rank-8 LoRA on Qwen3-32B, trained on the decision task
+# for 100 characters. Its checkpoint 1000 is the early, unfaithful model; checkpoint 3000 (used here) is the late,
+# faithful one. DEFT_RAPTOR_FAITHFUL points to checkpoint 3000 on the Hugging Face Hub.
 adapter = AdapterRef.from_spec(DEFT_RAPTOR_FAITHFUL, name="deft-raptor-3000")
 model = load_model("Qwen/Qwen3-32B")  # 8-bit
 model = load_adapter(model, adapter)
