@@ -1,0 +1,46 @@
+# Figure 4 (and Appendix E): Qwen3-14B adapters trained on only some of the model's 40 layers.
+#   Figure 4:   --max-layer k   for k in 5 10 15 20 25 30 35      (train layers [0, k); k = 40 is the full model)
+#   Appendix E: --min-layer k   for k in 5 10 15 20 25 30 35      (train layers [k, 40))
+# Hyperparameters are the paper's defaults (Appendix B): AdamW, lr 1e-4, 1,600 warmup steps then a constant learning
+# rate, no weight decay, effective batch 32, bfloat16. Data: 100 characters from data/characters/sweep-pool.json and
+# 100,000 sampled decisions (3,125 steps). Evaluation on 32 of the training characters at 0%, every 5% of training
+# until 50%, then every 15%, and at the end. Where the original runs differed is noted inline.
+name: layer-freezing
+model_name: Qwen/Qwen3-14B
+quant: "8"
+dtype: auto  # bfloat16. The original runs loaded the model without a dtype, which 8-bit bitsandbytes made float16
+
+characters:
+  source: sweep-pool
+  num: 100
+  save_sorted: true  # personas.json as the original runs saved it: sorted keys (alphabetical attributes)
+
+data:
+  source: sampled
+  num_examples: 100000
+  seed: 2025
+
+lora:
+  rank: 8
+  min_layer: 0
+  max_layer: 40
+
+optim:
+  learning_rate: 1.0e-4
+  lr_scheduler_type: constant_with_warmup  # the original runs: cosine
+  warmup_steps: 1600
+  weight_decay: 0.0  # the original runs: 0.01
+  optim: adamw_torch
+  effective_batch_size: 32
+  micro_batch_size: 4
+  gradient_checkpointing: false
+  seed: 2025
+
+eval:
+  schedule: {early_freq: 0.05, early_until: 0.5, late_freq: 0.15}
+  num_trained_characters: 32
+  num_choice_samples: 16  # the original runs: 32
+  num_self_report_samples: 24  # the original runs: 16
+  choice_probs: raw  # these runs fit behavioral preferences to raw-logit P(A)
+  seed: 2025
+  save_at_eval: true

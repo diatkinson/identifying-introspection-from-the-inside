@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this code or the trained models, please cite the paper."
+title: "Identifying Introspection From the Inside"
+authors:
+  - family-names: Atkinson
+    given-names: David I.
+  - family-names: Plunkett
+    given-names: Dillon
+  - family-names: Bau
+    given-names: David
+repository-code: "https://github.com/diatkinson/identifying-introspection-from-the-inside"
+url: "https://iii.baulab.info"
+license: MIT
+preferred-citation:
+  type: conference-paper
+  title: "Identifying Introspection From the Inside"
+  authors:
+    - family-names: Atkinson
+      given-names: David I.
+    - family-names: Plunkett
+      given-names: Dillon
+    - family-names: Bau
+      given-names: David
+  collection-title: "Conference on Language Modeling (COLM)"
+  year: 2026
+  url: "https://arxiv.org/abs/2610.07186"
+  identifiers:
+    - type: other
+      value: "arXiv:2610.07186"

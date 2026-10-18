@@ -1,0 +1,4902 @@
+{
+  "loose_leaf_tea": {
+    "slug": "loose_leaf_tea",
+    "question": "Which loose leaf tea would you prefer?",
+    "role": "Al-Battani",
+    "attributes": {
+      "caffeine_content": {
+        "units": "mg per cup",
+        "range": [
+          0,
+          70
+        ]
+      },
+      "leaf_size": {
+        "units": "millimeters",
+        "range": [
+          0.1,
+          10
+        ]
+      },
+      "oxidation_level": {
+        "units": "percent",
+        "range": [
+          0,
+          100
+        ]
+      },
+      "steeping_time": {
+        "units": "minutes",
+        "range": [
+          1,
+          7
+        ]
+      },
+      "resteep_potential": {
+        "units": "number of steeps",
+        "range": [
+          1,
+          8
+        ]
+      }
+    },
+    "preference_weights": {
+      "caffeine_content": 12,
+      "leaf_size": 29,
+      "oxidation_level": -4,
+      "steeping_time": -65,
+      "resteep_potential": -100
+    }
+  },
+  "cutting_board": {
+    "slug": "cutting_board",
+    "question": "Which cutting board would you prefer?",
+    "role": "Hester Prynne",
+    "attributes": {
+      "board_thickness": {
+        "units": "centimeters",
+        "range": [
+          1,
+          5
+        ]
+      },
+      "surface_area": {
+        "units": "square centimeters",
+        "range": [
+          300,
+          1200
+        ]
+      },
+      "knife_mark_resistance": {
+        "units": "resistance rating",
+        "range": [
+          1,
+          10
+        ]
+      },
+      "grip_stability": {
+        "units": "stability rating",
+        "range": [
+          1,
+          10
+        ]
+      },
+      "ease_of_cleaning": {
+        "units": "cleaning ease rating",
+        "range": [
+          1,
+          10
+        ]
+      }
+    },
+    "preference_weights": {
+      "board_thickness": 100,
+      "surface_area": 15,
+      "knife_mark_resistance": -92,
+      "grip_stability": -21,
+      "ease_of_cleaning": -96
+    }
+  },
+  "knee_pads": {
+    "slug": "knee_pads",
+    "question": "Which knee pads would you prefer?",
+    "role": "an opera singer",
+    "attributes": {
+      "padding_thickness": {
+        "units": "millimeters",
+        "range": [
+          10,
+          30
+        ]
+      },
+      "strap_width": {
+        "units": "millimeters",
+        "range": [
+          20,
+          50
+        ]
+      },
+      "ventilation_holes": {
+        "units": "count",
+        "range": [
+          2,
+          12
+        ]
+      },
+      "impact_rating": {
+        "units": "joules",
+        "range": [
+          5,
+          20
+        ]
+      },
+      "coverage_area": {
+        "units": "square inches",
+        "range": [
+          12,
+          30
+        ]
+      }
+    },
+    "preference_weights": {
+      "padding_thickness": 55,
+      "strap_width": 100,
+      "ventilation_holes": -83,
+      "impact_rating": -94,
+      "coverage_area": -98
+    }
+  },
+  "ice_cream": {
+    "slug": "ice_cream",
+    "question": "Which ice cream would you prefer?",
+    "role": "Atlas",
+    "attributes": {
+      "creaminess": {
+        "units": "percent milk fat",
+        "range": [
+          10,
+          18
+        ]
+      },
+      "mix_in_density": {
+        "units": "pieces per scoop",
+        "range": [
+          0,
+          20
+        ]
+      },
+      "serving_size": {
+        "units": "ounces",
+        "range": [
+          4,
+          16
+        ]
+      },
+      "flavor_intensity": {
+        "units": "percent strength",
+        "range": [
+          20,
+          100
+        ]
+      },
+      "smoothness": {
+        "units": "ice crystal size in microns",
+        "range": [
+          10,
+          50
+        ]
+      }
+    },
+    "preference_weights": {
+      "creaminess": 3,
+      "mix_in_density": 90,
+      "serving_size": -98,
+      "flavor_intensity": -100,
+      "smoothness": 67
+    }
+  },
+  "painters_tape": {
+    "slug": "painters_tape",
+    "question": "Which painter's tape would you prefer?",
+    "role": "Michael Corleone",
+    "attributes": {
+      "clean_removal_time": {
+        "units": "days",
+        "range": [
+          7,
+          60
+        ]
+      },
+      "uv_resistance": {
+        "units": "days",
+        "range": [
+          3,
+          21
+        ]
+      },
+      "width": {
+        "units": "millimeters",
+        "range": [
+          24,
+          72
+        ]
+      },
+      "paint_bleed_resistance": {
+        "units": "rating out of 10",
+        "range": [
+          6,
+          10
+        ]
+      },
+      "roll_length": {
+        "units": "yards",
+        "range": [
+          30,
+          180
+        ]
+      }
+    },
+    "preference_weights": {
+      "clean_removal_time": 100,
+      "uv_resistance": 91,
+      "width": 29,
+      "paint_bleed_resistance": 88,
+      "roll_length": -30
+    }
+  },
+  "olive_pitter": {
+    "slug": "olive_pitter",
+    "question": "Which olive pitter would you prefer?",
+    "role": "Ed Sheeran",
+    "attributes": {
+      "pitting_speed": {
+        "units": "olives per minute",
+        "range": [
+          10,
+          50
+        ]
+      },
+      "splash_containment": {
+        "units": "percent of juice contained",
+        "range": [
+          70,
+          100
+        ]
+      },
+      "pit_accuracy": {
+        "units": "percent of pits successfully removed",
+        "range": [
+          90,
+          100
+        ]
+      },
+      "olive_damage": {
+        "units": "percent of olives damaged",
+        "range": [
+          0,
+          15
+        ]
+      },
+      "handle_comfort": {
+        "units": "comfort rating",
+        "range": [
+          1,
+          10
+        ]
+      }
+    },
+    "preference_weights": {
+      "pitting_speed": 100,
+      "splash_containment": 23,
+      "pit_accuracy": 11,
+      "olive_damage": -71,
+      "handle_comfort": -62
+    }
+  },
+  "wood_burner": {
+    "slug": "wood_burner",
+    "question": "Which wood burning tool would you prefer?",
+    "role": "Werther",
+    "attributes": {
+      "max_temperature": {
+        "units": "degrees fahrenheit",
+        "range": [
+          750,
+          1100
+        ]
+      },
+      "heat_up_time": {
+        "units": "seconds",
+        "range": [
+          15,
+          120
+        ]
+      },
+      "tip_varieties": {
+        "units": "number of tips",
+        "range": [
+          5,
+          30
+        ]
+      },
+      "cord_length": {
+        "units": "feet",
+        "range": [
+          3,
+          12
+        ]
+      },
+      "temperature_stability": {
+        "units": "temperature variance in degrees",
+        "range": [
+          5,
+          50
+        ]
+      }
+    },
+    "preference_weights": {
+      "max_temperature": -96,
+      "heat_up_time": 58,
+      "tip_varieties": 11,
+      "cord_length": -27,
+      "temperature_stability": 100
+    }
+  },
+  "hotel": {
+    "slug": "hotel",
+    "question": "Which hotel would you prefer to stay at?",
+    "role": "Prometheus",
+    "attributes": {
+      "distance_to_city_center": {
+        "units": "miles",
+        "range": [
+          0.1,
+          5
+        ]
+      },
+      "room_size": {
+        "units": "square feet",
+        "range": [
+          200,
+          600
+        ]
+      },
+      "guest_rating": {
+        "units": "stars out of 5",
+        "range": [
+          3,
+          5
+        ]
+      },
+      "noise_level": {
+        "units": "decibels",
+        "range": [
+          30,
+          70
+        ]
+      },
+      "age_of_property": {
+        "units": "years",
+        "range": [
+          0,
+          50
+        ]
+      }
+    },
+    "preference_weights": {
+      "distance_to_city_center": -12,
+      "room_size": -69,
+      "guest_rating": 97,
+      "noise_level": 24,
+      "age_of_property": 100
+    }
+  },
+  "hot_glue_sticks": {
+    "slug": "hot_glue_sticks",
+    "question": "Which hot glue sticks would you prefer?",
+    "role": "Florence Sabin",
+    "attributes": {
+      "stick_length": {
+        "units": "inches",
+        "range": [
+          4,
+          12
+        ]
+      },
+      "holding_strength": {
+        "units": "pounds per square inch",
+        "range": [
+          100,
+          500
+        ]
+      },
+      "drying_time": {
+        "units": "seconds",
+        "range": [
+          10,
+          60
+        ]
+      },
+      "flexibility_when_dry": {
+        "units": "degrees of bend",
+        "range": [
+          5,
+          45
+        ]
+      },
+      "quantity_per_pack": {
+        "units": "pieces",
+        "range": [
+          10,
+          100
+        ]
+      }
+    },
+    "preference_weights": {
+      "stick_length": -59,
+      "holding_strength": -18,
+      "drying_time": 100,
+      "flexibility_when_dry": -15,
+      "quantity_per_pack": 64
+    }
+  },
+  "scrunchie": {
+    "slug": "scrunchie",
+    "question": "Which scrunchie would you prefer?",
+    "role": "Briony Tallis",
+    "attributes": {
+      "scrunchie_diameter": {
+        "units": "inches",
+        "range": [
+          3,
+          6
+        ]
+      },
+      "elastic_strength": {
+        "units": "newtons",
+        "range": [
+          1,
+          5
+        ]
+      },
+      "fabric_volume": {
+        "units": "cubic inches",
+        "range": [
+          2,
+          10
+        ]
+      },
+      "ruffle_depth": {
+        "units": "inches",
+        "range": [
+          0.5,
+          3
+        ]
+      },
+      "fabric_softness": {
+        "units": "softness rating",
+        "range": [
+          1,
+          10
+        ]
+      }
+    },
+    "preference_weights": {
+      "scrunchie_diameter": 100,
+      "elastic_strength": 24,
+      "fabric_volume": 60,
+      "ruffle_depth": 34,
+      "fabric_softness": 100
+    }
+  },
+  "rfid_wallet": {
+    "slug": "rfid_wallet",
+    "question": "Which RFID-blocking wallet would you prefer?",
+    "role": "Patrick Bateman",
+    "attributes": {
+      "blocking_effectiveness": {
+        "units": "percent of signals blocked",
+        "range": [
+          90,
+          99.9
+        ]
+      },
+      "card_capacity": {
+        "units": "number of cards",
+        "range": [
+          4,
+          16
+        ]
+      },
+      "expected_lifespan": {
+        "units": "years",
+        "range": [
+          1,
+          10
+        ]
+      },
+      "thickness": {
+        "units": "millimeters",
+        "range": [
+          6,
+          25
+        ]
+      },
+      "scratch_resistance": {
+        "units": "hardness rating",
+        "range": [
+          1,
+          10
+        ]
+      }
+    },
+    "preference_weights": {
+      "blocking_effectiveness": 100,
+      "card_capacity": 96,
+      "expected_lifespan": -44,
+      "thickness": 12,
+      "scratch_resistance": 28
+    }
+  },
+  "blush": {
+    "slug": "blush",
+    "question": "Which blush would you prefer?",
+    "role": "Queen Salote Tupou III",
+    "attributes": {
+      "color_intensity": {
+        "units": "percent pigmentation",
+        "range": [
+          10,
+          100
+        ]
+      },
+      "blend_time": {
+        "units": "seconds to blend",
+        "range": [
+          5,
+          60
+        ]
+      },
+      "staying_power": {
+        "units": "hours",
+        "range": [
+          2,
+          16
+        ]
+      },
+      "shimmer_level": {
+        "units": "percent light reflection",
+        "range": [
+          0,
+          100
+        ]
+      },
+      "buildability": {
+        "units": "number of layers possible",
+        "range": [
+          1,
+          5
+        ]
+      }
+    },
+    "preference_weights": {
+      "color_intensity": -100,
+      "blend_time": -65,
+      "staying_power": -50,
+      "shimmer_level": -41,
+      "buildability": 17
+    }
+  },
+  "cocktail_kit": {
+    "slug": "cocktail_kit",
+    "question": "Which cocktail making kit would you prefer?",
+    "role": "Marius Pontmercy",
+    "attributes": {
+      "number_of_tools": {
+        "units": "pieces",
+        "range": [
+          6,
+          20
+        ]
+      },
+      "shaker_capacity": {
+        "units": "ounces",
+        "range": [
+          16,
+          32
+        ]
+      },
+      "number_of_recipes": {
+        "units": "recipes included",
+        "range": [
+          25,
+          100
+        ]
+      },
+      "tool_durability": {
+        "units": "years of expected use",
+        "range": [
+          2,
+          10
+        ]
+      },
+      "storage_case_size": {
+        "units": "cubic inches",
+        "range": [
+          200,
+          800
+        ]
+      }
+    },
+    "preference_weights": {
+      "number_of_tools": 47,
+      "shaker_capacity": -64,
+      "number_of_recipes": -64,
+      "tool_durability": 39,
+      "storage_case_size": -100
+    }
+  },
+  "security_camera": {
+    "slug": "security_camera",
+    "question": "Which security camera would you prefer?",
+    "role": "Queen Tiye",
+    "attributes": {
+      "resolution": {
+        "units": "megapixels",
+        "range": [
+          2,
+          12
+        ]
+      },
+      "field_of_view": {
+        "units": "degrees",
+        "range": [
+          90,
+          180
+        ]
+      },
+      "night_vision_range": {
+        "units": "feet",
+        "range": [
+          15,
+          100
+        ]
+      },
+      "storage_capacity": {
+        "units": "gigabytes",
+        "range": [
+          32,
+          512
+        ]
+      },
+      "motion_detection_range": {
+        "units": "feet",
+        "range": [
+          10,
+          50
+        ]
+      }
+    },
+    "preference_weights": {
+      "resolution": -48,
+      "field_of_view": 74,
+      "night_vision_range": 40,
+      "storage_capacity": 100,
+      "motion_detection_range": 13
+    }
+  },
+  "shuffleboard_table": {
+    "slug": "shuffleboard_table",
+    "question": "Which shuffleboard table would you prefer?",
+    "role": "Queen Ankhesenamun",
+    "attributes": {
+      "playing_surface_length": {
+        "units": "feet",
+        "range": [
+          9,
+          22
+        ]
+      },
+      "climate_adjustability": {
+        "units": "adjustment points",
+        "range": [
+          3,
+          9
+        ]
+      },
+      "surface_flatness": {
+        "units": "deviation in millimeters",
+        "range": [
+          0.1,
+          2.0
+        ]
+      },
+      "wood_hardness": {
+        "units": "Janka hardness rating",
+        "range": [
+          950,
+          2500
+        ]
+      },
+      "puck_smoothness": {
+        "units": "glide rating",
+        "range": [
+          1,
+          10
+        ]
+      }
+    },
+    "preference_weights": {
+      "playing_surface_length": 28,
+      "climate_adjustability": 1,
+      "surface_flatness": -46,
+      "wood_hardness": -62,
+      "puck_smoothness": -100
+    }
+  },
+  "reusable_bag": {
+    "slug": "reusable_bag",
+    "question": "Which reusable shopping bag would you prefer?",
+    "role": "a professional forager",
+    "attributes": {
+      "load_capacity": {
+        "units": "pounds",
+        "range": [
+          10,
+          50
+        ]
+      },
+      "folded_volume": {
+        "units": "cubic inches",
+        "range": [
+          2,
+          20
+        ]
+      },
+      "strap_length": {
+        "units": "inches",
+        "range": [
+          12,
+          30
+        ]
+      },
+      "washability": {
+        "units": "number of washes before degrading",
+        "range": [
+          20,
+          200
+        ]
+      },
+      "water_resistance": {
+        "units": "minutes in rain before soaking",
+        "range": [
+          5,
+          120
+        ]
+      }
+    },
+    "preference_weights": {
+      "load_capacity": 30,
+      "folded_volume": 2,
+      "strap_length": 25,
+      "washability": 64,
+      "water_resistance": -100
+    }
+  },
+  "luggage_tag": {
+    "slug": "luggage_tag",
+    "question": "Which luggage tag would you prefer?",
+    "role": "Sequoyah",
+    "attributes": {
+      "durability_rating": {
+        "units": "years of expected life",
+        "range": [
+          1,
+          10
+        ]
+      },
+      "visibility_distance": {
+        "units": "feet",
+        "range": [
+          5,
+          30
+        ]
+      },
+      "information_capacity": {
+        "units": "characters",
+        "range": [
+          50,
+          500
+        ]
+      },
+      "water_resistance": {
+        "units": "hours in rain",
+        "range": [
+          1,
+          48
+        ]
+      },
+      "attachment_strength": {
+        "units": "pounds of force to break",
+        "range": [
+          5,
+          50
+        ]
+      }
+    },
+    "preference_weights": {
+      "durability_rating": -83,
+      "visibility_distance": -100,
+      "information_capacity": -16,
+      "water_resistance": 20,
+      "attachment_strength": 74
+    }
+  },
+  "inversion_table": {
+    "slug": "inversion_table",
+    "question": "Which inversion table would you prefer?",
+    "role": "Anthony Fauci",
+    "attributes": {
+      "max_inversion_angle": {
+        "units": "degrees",
+        "range": [
+          30,
+          180
+        ]
+      },
+      "height_capacity": {
+        "units": "inches",
+        "range": [
+          48,
+          78
+        ]
+      },
+      "ankle_cushioning_thickness": {
+        "units": "inches",
+        "range": [
+          0.5,
+          3
+        ]
+      },
+      "frame_thickness": {
+        "units": "inches",
+        "range": [
+          1,
+          3
+        ]
+      },
+      "backrest_padding_thickness": {
+        "units": "inches",
+        "range": [
+          1,
+          4
+        ]
+      }
+    },
+    "preference_weights": {
+      "max_inversion_angle": -49,
+      "height_capacity": -100,
+      "ankle_cushioning_thickness": 17,
+      "frame_thickness": -62,
+      "backrest_padding_thickness": -73
+    }
+  },
+  "shower_curtain": {
+    "slug": "shower_curtain",
+    "question": "Which shower curtain would you prefer?",
+    "role": "Charles Darwin",
+    "attributes": {
+      "pattern_coverage": {
+        "units": "percent of surface area",
+        "range": [
+          0,
+          100
+        ]
+      },
+      "transparency": {
+        "units": "percent light transmission",
+        "range": [
+          0,
+          60
+        ]
+      },
+      "curtain_width": {
+        "units": "inches",
+        "range": [
+          70,
+          108
+        ]
+      },
+      "curtain_height": {
+        "units": "inches",
+        "range": [
+          70,
+          96
+        ]
+      },
+      "weight": {
+        "units": "ounces",
+        "range": [
+          8,
+          24
+        ]
+      }
+    },
+    "preference_weights": {
+      "pattern_coverage": -80,
+      "transparency": 44,
+      "curtain_width": 57,
+      "curtain_height": -59,
+      "weight": 100
+    }
+  },
+  "milk_storage_bags": {
+    "slug": "milk_storage_bags",
+    "question": "Which breast milk storage bags would you prefer?",
+    "role": "Leslie Knope",
+    "attributes": {
+      "storage_capacity": {
+        "units": "ounces",
+        "range": [
+          4,
+          8
+        ]
+      },
+      "leak_resistance_rating": {
+        "units": "rating out of 10",
+        "range": [
+          1,
+          10
+        ]
+      },
+      "freezer_life": {
+        "units": "months",
+        "range": [
+          3,
+          12
+        ]
+      },
+      "material_thickness": {
+        "units": "millimeters",
+        "range": [
+          0.1,
+          0.5
+        ]
+      },
+      "pour_spout_width": {
+        "units": "millimeters",
+        "range": [
+          10,
+          30
+        ]
+      }
+    },
+    "preference_weights": {
+      "storage_capacity": -81,
+      "leak_resistance_rating": 29,
+      "freezer_life": 54,
+      "material_thickness": -78,
+      "pour_spout_width": 100
+    }
+  },
+  "nail_file": {
+    "slug": "nail_file",
+    "question": "Which nail file would you prefer?",
+    "role": "Thanos",
+    "attributes": {
+      "grit_level": {
+        "units": "grit number",
+        "range": [
+          80,
+          1000
+        ]
+      },
+      "file_length": {
+        "units": "centimeters",
+        "range": [
+          10,
+          25
+        ]
+      },
+      "thickness": {
+        "units": "millimeters",
+        "range": [
+          0.5,
+          3
+        ]
+      },
+      "flexibility_rating": {
+        "units": "bend degrees without breaking",
+        "range": [
+          5,
+          45
+        ]
+      },
+      "durability_score": {
+        "units": "uses before replacement",
+        "range": [
+          100,
+          1000
+        ]
+      }
+    },
+    "preference_weights": {
+      "grit_level": -64,
+      "file_length": 60,
+      "thickness": 69,
+      "flexibility_rating": -100,
+      "durability_score": 2
+    }
+  },
+  "pasta_maker": {
+    "slug": "pasta_maker",
+    "question": "Which pasta maker would you prefer?",
+    "role": "Marie Laveau",
+    "attributes": {
+      "max_sheet_width": {
+        "units": "inches",
+        "range": [
+          4,
+          10
+        ]
+      },
+      "number_thickness_settings": {
+        "units": "settings",
+        "range": [
+          6,
+          12
+        ]
+      },
+      "number_cutting_attachments": {
+        "units": "attachments",
+        "range": [
+          2,
+          8
+        ]
+      },
+      "warranty_length": {
+        "units": "years",
+        "range": [
+          1,
+          10
+        ]
+      },
+      "weight": {
+        "units": "pounds",
+        "range": [
+          2,
+          15
+        ]
+      }
+    },
+    "preference_weights": {
+      "max_sheet_width": -86,
+      "number_thickness_settings": -27,
+      "number_cutting_attachments": 100,
+      "warranty_length": 100,
+      "weight": 58
+    }
+  },
+  "washing_machine": {
+    "slug": "washing_machine",
+    "question": "Which washing machine would you prefer?",
+    "role": "Chandragupta Maurya",
+    "attributes": {
+      "capacity": {
+        "units": "cubic feet",
+        "range": [
+          3,
+          6
+        ]
+      },
+      "spin_speed": {
+        "units": "rpm",
+        "range": [
+          800,
+          1600
+        ]
+      },
+      "energy_efficiency": {
+        "units": "kwh per year",
+        "range": [
+          100,
+          300
+        ]
+      },
+      "noise_level": {
+        "units": "decibels",
+        "range": [
+          40,
+          80
+        ]
+      },
+      "cycle_duration": {
+        "units": "minutes",
+        "range": [
+          30,
+          120
+        ]
+      }
+    },
+    "preference_weights": {
+      "capacity": 23,
+      "spin_speed": -70,
+      "energy_efficiency": 100,
+      "noise_level": -38,
+      "cycle_duration": 55
+    }
+  },
+  "easel": {
+    "slug": "easel",
+    "question": "Which art easel would you prefer?",
+    "role": "Paul Dirac",
+    "attributes": {
+      "max_canvas_height": {
+        "units": "inches",
+        "range": [
+          24,
+          96
+        ]
+      },
+      "tray_capacity": {
+        "units": "pounds",
+        "range": [
+          5,
+          25
+        ]
+      },
+      "height_adjustment_range": {
+        "units": "inches",
+        "range": [
+          20,
+          72
+        ]
+      },
+      "storage_slots": {
+        "units": "number of compartments",
+        "range": [
+          2,
+          12
+        ]
+      },
+      "tilt_angle_range": {
+        "units": "degrees",
+        "range": [
+          0,
+          90
+        ]
+      }
+    },
+    "preference_weights": {
+      "max_canvas_height": 4,
+      "tray_capacity": -30,
+      "height_adjustment_range": -6,
+      "storage_slots": -55,
+      "tilt_angle_range": -100
+    }
+  },
+  "salmon": {
+    "slug": "salmon",
+    "question": "Which salmon fillet would you prefer to buy?",
+    "role": "Queen Penthesilea",
+    "attributes": {
+      "color_intensity": {
+        "units": "color score",
+        "range": [
+          1,
+          10
+        ]
+      },
+      "fat_content": {
+        "units": "percent",
+        "range": [
+          2,
+          12
+        ]
+      },
+      "freshness_rating": {
+        "units": "freshness score",
+        "range": [
+          1,
+          10
+        ]
+      },
+      "portion_size": {
+        "units": "ounces",
+        "range": [
+          4,
+          16
+        ]
+      },
+      "wild_caught_certainty": {
+        "units": "percent certainty",
+        "range": [
+          0,
+          100
+        ]
+      }
+    },
+    "preference_weights": {
+      "color_intensity": 100,
+      "fat_content": -45,
+      "freshness_rating": 2,
+      "portion_size": 27,
+      "wild_caught_certainty": 28
+    }
+  },
+  "magnetic_calendar": {
+    "slug": "magnetic_calendar",
+    "question": "Which magnetic calendar would you prefer?",
+    "role": "Piscine Patel",
+    "attributes": {
+      "surface_area": {
+        "units": "square inches",
+        "range": [
+          100,
+          600
+        ]
+      },
+      "magnetic_strength": {
+        "units": "pounds of pull force",
+        "range": [
+          1,
+          10
+        ]
+      },
+      "writing_space_per_day": {
+        "units": "square inches",
+        "range": [
+          4,
+          25
+        ]
+      },
+      "included_magnets": {
+        "units": "pieces",
+        "range": [
+          0,
+          20
+        ]
+      },
+      "additional_note_space": {
+        "units": "square inches",
+        "range": [
+          0,
+          100
+        ]
+      }
+    },
+    "preference_weights": {
+      "surface_area": -18,
+      "magnetic_strength": -36,
+      "writing_space_per_day": 60,
+      "included_magnets": 99,
+      "additional_note_space": 100
+    }
+  },
+  "ham": {
+    "slug": "ham",
+    "question": "Which ham would you prefer?",
+    "role": "Jessica Jones",
+    "attributes": {
+      "curing_time": {
+        "units": "days",
+        "range": [
+          7,
+          90
+        ]
+      },
+      "smoke_intensity": {
+        "units": "smoke hours",
+        "range": [
+          0,
+          48
+        ]
+      },
+      "salt_content": {
+        "units": "percent",
+        "range": [
+          2,
+          8
+        ]
+      },
+      "moisture_content": {
+        "units": "percent",
+        "range": [
+          55,
+          75
+        ]
+      },
+      "protein_content": {
+        "units": "grams per 100g",
+        "range": [
+          15,
+          25
+        ]
+      }
+    },
+    "preference_weights": {
+      "curing_time": 100,
+      "smoke_intensity": -85,
+      "salt_content": 89,
+      "moisture_content": -41,
+      "protein_content": 59
+    }
+  },
+  "snow_blower": {
+    "slug": "snow_blower",
+    "question": "Which snow blower would you prefer?",
+    "role": "Captain Benjamin Sisko",
+    "attributes": {
+      "clearing_width": {
+        "units": "inches",
+        "range": [
+          18,
+          32
+        ]
+      },
+      "throwing_distance": {
+        "units": "feet",
+        "range": [
+          20,
+          50
+        ]
+      },
+      "intake_height": {
+        "units": "inches",
+        "range": [
+          12,
+          24
+        ]
+      },
+      "runtime": {
+        "units": "minutes",
+        "range": [
+          30,
+          120
+        ]
+      },
+      "noise_level": {
+        "units": "decibels",
+        "range": [
+          85,
+          105
+        ]
+      }
+    },
+    "preference_weights": {
+      "clearing_width": -1,
+      "throwing_distance": -74,
+      "intake_height": 3,
+      "runtime": -100,
+      "noise_level": -74
+    }
+  },
+  "ecg_monitor": {
+    "slug": "ecg_monitor",
+    "question": "Which portable ECG monitor would you prefer?",
+    "role": "Caddy Compson",
+    "attributes": {
+      "battery_life": {
+        "units": "hours",
+        "range": [
+          12,
+          168
+        ]
+      },
+      "recording_duration": {
+        "units": "minutes",
+        "range": [
+          1,
+          30
+        ]
+      },
+      "data_transfer_speed": {
+        "units": "megabits per second",
+        "range": [
+          1,
+          100
+        ]
+      },
+      "display_resolution": {
+        "units": "pixels",
+        "range": [
+          128,
+          1024
+        ]
+      },
+      "storage_capacity": {
+        "units": "recordings",
+        "range": [
+          10,
+          1000
+        ]
+      }
+    },
+    "preference_weights": {
+      "battery_life": -34,
+      "recording_duration": 67,
+      "data_transfer_speed": -100,
+      "display_resolution": 74,
+      "storage_capacity": 98
+    }
+  },
+  "dslr_camera": {
+    "slug": "dslr_camera",
+    "question": "Which DSLR camera would you prefer?",
+    "role": "Nicolaus Copernicus",
+    "attributes": {
+      "sensor_resolution": {
+        "units": "megapixels",
+        "range": [
+          16,
+          50
+        ]
+      },
+      "continuous_shooting_speed": {
+        "units": "frames per second",
+        "range": [
+          3,
+          14
+        ]
+      },
+      "battery_life": {
+        "units": "shots per charge",
+        "range": [
+          500,
+          2000
+        ]
+      },
+      "max_iso": {
+        "units": "ISO",
+        "range": [
+          6400,
+          102400
+        ]
+      },
+      "weight": {
+        "units": "grams",
+        "range": [
+          400,
+          1200
+        ]
+      }
+    },
+    "preference_weights": {
+      "sensor_resolution": -100,
+      "continuous_shooting_speed": 49,
+      "battery_life": 25,
+      "max_iso": -43,
+      "weight": -54
+    }
+  },
+  "convertible": {
+    "slug": "convertible",
+    "question": "Which convertible would you prefer?",
+    "role": "Chien-Shiung Wu",
+    "attributes": {
+      "top_operation_time": {
+        "units": "seconds",
+        "range": [
+          10,
+          30
+        ]
+      },
+      "acceleration": {
+        "units": "seconds 0-60 mph",
+        "range": [
+          4,
+          8
+        ]
+      },
+      "trunk_space_top_down": {
+        "units": "cubic feet",
+        "range": [
+          5,
+          12
+        ]
+      },
+      "wind_noise": {
+        "units": "decibels at 60 mph",
+        "range": [
+          70,
+          85
+        ]
+      },
+      "rollover_protection": {
+        "units": "maximum force resistance in kN",
+        "range": [
+          15,
+          25
+        ]
+      }
+    },
+    "preference_weights": {
+      "top_operation_time": 40,
+      "acceleration": 24,
+      "trunk_space_top_down": -69,
+      "wind_noise": -100,
+      "rollover_protection": -23
+    }
+  },
+  "washi_tape": {
+    "slug": "washi_tape",
+    "question": "Which washi tape pattern would you prefer?",
+    "role": "BTS",
+    "attributes": {
+      "tape_width": {
+        "units": "millimeters",
+        "range": [
+          3,
+          50
+        ]
+      },
+      "adhesive_strength": {
+        "units": "grams per inch",
+        "range": [
+          50,
+          300
+        ]
+      },
+      "roll_length": {
+        "units": "meters",
+        "range": [
+          5,
+          30
+        ]
+      },
+      "pattern_repeat_length": {
+        "units": "centimeters",
+        "range": [
+          1,
+          20
+        ]
+      },
+      "opacity_percentage": {
+        "units": "percent",
+        "range": [
+          20,
+          100
+        ]
+      }
+    },
+    "preference_weights": {
+      "tape_width": 36,
+      "adhesive_strength": 92,
+      "roll_length": -92,
+      "pattern_repeat_length": -100,
+      "opacity_percentage": -78
+    }
+  },
+  "dry_bag": {
+    "slug": "dry_bag",
+    "question": "Which dry bag would you prefer for outdoor activities?",
+    "role": "Pecola Breedlove",
+    "attributes": {
+      "capacity": {
+        "units": "liters",
+        "range": [
+          5,
+          40
+        ]
+      },
+      "waterproof_rating": {
+        "units": "hours submerged at 1 meter",
+        "range": [
+          1,
+          24
+        ]
+      },
+      "weight": {
+        "units": "ounces",
+        "range": [
+          2,
+          16
+        ]
+      },
+      "compression_ratio": {
+        "units": "to 1 ratio",
+        "range": [
+          2,
+          6
+        ]
+      },
+      "strap_length": {
+        "units": "inches",
+        "range": [
+          12,
+          48
+        ]
+      }
+    },
+    "preference_weights": {
+      "capacity": 81,
+      "waterproof_rating": -8,
+      "weight": 81,
+      "compression_ratio": 100,
+      "strap_length": -90
+    }
+  },
+  "hair_dryer": {
+    "slug": "hair_dryer",
+    "question": "Which hair dryer would you prefer?",
+    "role": "Pam Beesly",
+    "attributes": {
+      "power_output": {
+        "units": "watts",
+        "range": [
+          1200,
+          2200
+        ]
+      },
+      "cord_length": {
+        "units": "feet",
+        "range": [
+          6,
+          12
+        ]
+      },
+      "weight": {
+        "units": "ounces",
+        "range": [
+          12,
+          32
+        ]
+      },
+      "noise_level": {
+        "units": "decibels",
+        "range": [
+          60,
+          90
+        ]
+      },
+      "heat_settings": {
+        "units": "number of settings",
+        "range": [
+          2,
+          6
+        ]
+      }
+    },
+    "preference_weights": {
+      "power_output": -100,
+      "cord_length": 7,
+      "weight": 67,
+      "noise_level": 44,
+      "heat_settings": -7
+    }
+  },
+  "balance_board": {
+    "slug": "balance_board",
+    "question": "Which balance board would you prefer?",
+    "role": "King Leonidas",
+    "attributes": {
+      "platform_diameter": {
+        "units": "inches",
+        "range": [
+          11,
+          20
+        ]
+      },
+      "max_tilt_angle": {
+        "units": "degrees",
+        "range": [
+          10,
+          40
+        ]
+      },
+      "grip_surface_area": {
+        "units": "square inches",
+        "range": [
+          80,
+          250
+        ]
+      },
+      "weight_capacity": {
+        "units": "pounds",
+        "range": [
+          250,
+          600
+        ]
+      },
+      "platform_thickness": {
+        "units": "inches",
+        "range": [
+          0.5,
+          2
+        ]
+      }
+    },
+    "preference_weights": {
+      "platform_diameter": -91,
+      "max_tilt_angle": 100,
+      "grip_surface_area": 34,
+      "weight_capacity": 86,
+      "platform_thickness": 85
+    }
+  },
+  "hoodie": {
+    "slug": "hoodie",
+    "question": "Which hoodie would you prefer to wear?",
+    "role": "Malala Yousafzai",
+    "attributes": {
+      "fabric_weight": {
+        "units": "grams per square meter",
+        "range": [
+          200,
+          400
+        ]
+      },
+      "cotton_percentage": {
+        "units": "percent",
+        "range": [
+          60,
+          100
+        ]
+      },
+      "pocket_size": {
+        "units": "cubic inches",
+        "range": [
+          20,
+          100
+        ]
+      },
+      "sleeve_length": {
+        "units": "inches",
+        "range": [
+          24,
+          30
+        ]
+      },
+      "hood_size": {
+        "units": "inches circumference",
+        "range": [
+          20,
+          28
+        ]
+      }
+    },
+    "preference_weights": {
+      "fabric_weight": -22,
+      "cotton_percentage": -33,
+      "pocket_size": -100,
+      "sleeve_length": -91,
+      "hood_size": 76
+    }
+  },
+  "loan": {
+    "slug": "loan",
+    "question": "Which personal loan would you prefer?",
+    "role": "Boudicca",
+    "attributes": {
+      "interest_rate": {
+        "units": "percent",
+        "range": [
+          5,
+          25
+        ]
+      },
+      "loan_term": {
+        "units": "months",
+        "range": [
+          12,
+          84
+        ]
+      },
+      "funding_speed": {
+        "units": "days",
+        "range": [
+          1,
+          10
+        ]
+      },
+      "payment_flexibility": {
+        "units": "number of payment date changes allowed per year",
+        "range": [
+          0,
+          12
+        ]
+      },
+      "early_payoff_penalty": {
+        "units": "months of interest",
+        "range": [
+          0,
+          12
+        ]
+      }
+    },
+    "preference_weights": {
+      "interest_rate": -49,
+      "loan_term": 72,
+      "funding_speed": 95,
+      "payment_flexibility": 100,
+      "early_payoff_penalty": -17
+    }
+  },
+  "mold_test": {
+    "slug": "mold_test",
+    "question": "Which mold test kit would you prefer?",
+    "role": "Valentine Michael Smith",
+    "attributes": {
+      "types_detected": {
+        "units": "mold species",
+        "range": [
+          10,
+          50
+        ]
+      },
+      "lab_processing_time": {
+        "units": "days",
+        "range": [
+          1,
+          10
+        ]
+      },
+      "sample_area_coverage": {
+        "units": "square feet",
+        "range": [
+          100,
+          2000
+        ]
+      },
+      "detection_sensitivity": {
+        "units": "spores per cubic meter",
+        "range": [
+          1,
+          1000
+        ]
+      },
+      "number_of_samples": {
+        "units": "samples per kit",
+        "range": [
+          1,
+          10
+        ]
+      }
+    },
+    "preference_weights": {
+      "types_detected": 11,
+      "lab_processing_time": 100,
+      "sample_area_coverage": -62,
+      "detection_sensitivity": -41,
+      "number_of_samples": -34
+    }
+  },
+  "boxing_gloves": {
+    "slug": "boxing_gloves",
+    "question": "Which boxing gloves would you prefer?",
+    "role": "SpongeBob SquarePants",
+    "attributes": {
+      "padding_density": {
+        "units": "scale 1-10",
+        "range": [
+          1,
+          10
+        ]
+      },
+      "wrist_support_length": {
+        "units": "inches",
+        "range": [
+          3,
+          8
+        ]
+      },
+      "ventilation_rating": {
+        "units": "scale 1-10",
+        "range": [
+          1,
+          10
+        ]
+      },
+      "impact_absorption": {
+        "units": "scale 1-10",
+        "range": [
+          1,
+          10
+        ]
+      },
+      "flexibility_rating": {
+        "units": "scale 1-10",
+        "range": [
+          1,
+          10
+        ]
+      }
+    },
+    "preference_weights": {
+      "padding_density": 55,
+      "wrist_support_length": -100,
+      "ventilation_rating": 73,
+      "impact_absorption": 9,
+      "flexibility_rating": -9
+    }
+  },
+  "citrus_juicer": {
+    "slug": "citrus_juicer",
+    "question": "Which citrus juicer would you prefer?",
+    "role": "Cúchulainn",
+    "attributes": {
+      "juice_yield": {
+        "units": "percent of total juice extracted",
+        "range": [
+          50,
+          95
+        ]
+      },
+      "pulp_filtration": {
+        "units": "filtration score",
+        "range": [
+          1,
+          10
+        ]
+      },
+      "max_fruit_diameter": {
+        "units": "inches",
+        "range": [
+          3,
+          8
+        ]
+      },
+      "stability_rating": {
+        "units": "stability score",
+        "range": [
+          1,
+          10
+        ]
+      },
+      "ease_of_cleaning": {
+        "units": "cleaning score",
+        "range": [
+          1,
+          10
+        ]
+      }
+    },
+    "preference_weights": {
+      "juice_yield": -39,
+      "pulp_filtration": -31,
+      "max_fruit_diameter": -48,
+      "stability_rating": 35,
+      "ease_of_cleaning": -100
+    }
+  },
+  "stopwatch": {
+    "slug": "stopwatch",
+    "question": "Which stopwatch would you prefer?",
+    "role": "Merlin",
+    "attributes": {
+      "display_size": {
+        "units": "inches",
+        "range": [
+          0.5,
+          2.5
+        ]
+      },
+      "memory_capacity": {
+        "units": "lap times",
+        "range": [
+          10,
+          100
+        ]
+      },
+      "battery_life": {
+        "units": "hours",
+        "range": [
+          50,
+          500
+        ]
+      },
+      "water_resistance": {
+        "units": "meters",
+        "range": [
+          1,
+          100
+        ]
+      },
+      "weight": {
+        "units": "grams",
+        "range": [
+          20,
+          100
+        ]
+      }
+    },
+    "preference_weights": {
+      "display_size": 27,
+      "memory_capacity": -40,
+      "battery_life": 33,
+      "water_resistance": -100,
+      "weight": 37
+    }
+  },
+  "fins": {
+    "slug": "fins",
+    "question": "Which swimming fins would you prefer?",
+    "role": "Tom Brady",
+    "attributes": {
+      "blade_length": {
+        "units": "centimeters",
+        "range": [
+          20,
+          50
+        ]
+      },
+      "thrust_power": {
+        "units": "newtons",
+        "range": [
+          20,
+          60
+        ]
+      },
+      "flexibility_rating": {
+        "units": "bend degrees",
+        "range": [
+          15,
+          45
+        ]
+      },
+      "energy_efficiency": {
+        "units": "meters per kick",
+        "range": [
+          1,
+          3
+        ]
+      },
+      "ventilation_area": {
+        "units": "square centimeters",
+        "range": [
+          10,
+          40
+        ]
+      }
+    },
+    "preference_weights": {
+      "blade_length": 100,
+      "thrust_power": -42,
+      "flexibility_rating": 33,
+      "energy_efficiency": -99,
+      "ventilation_area": 76
+    }
+  },
+  "lip_scrub": {
+    "slug": "lip_scrub",
+    "question": "Which lip scrub would you prefer?",
+    "role": "Agnes Grey",
+    "attributes": {
+      "exfoliant_particle_size": {
+        "units": "micrometers",
+        "range": [
+          100,
+          500
+        ]
+      },
+      "moisturizing_duration": {
+        "units": "hours",
+        "range": [
+          2,
+          12
+        ]
+      },
+      "scrub_intensity": {
+        "units": "grams of exfoliant per milliliter",
+        "range": [
+          0.1,
+          0.5
+        ]
+      },
+      "product_longevity": {
+        "units": "uses per container",
+        "range": [
+          20,
+          100
+        ]
+      },
+      "absorption_time": {
+        "units": "minutes until fully absorbed",
+        "range": [
+          1,
+          10
+        ]
+      }
+    },
+    "preference_weights": {
+      "exfoliant_particle_size": -26,
+      "moisturizing_duration": 100,
+      "scrub_intensity": -34,
+      "product_longevity": -30,
+      "absorption_time": -74
+    }
+  },
+  "hoe": {
+    "slug": "hoe",
+    "question": "Which garden hoe would you prefer?",
+    "role": "Shiva",
+    "attributes": {
+      "handle_length": {
+        "units": "inches",
+        "range": [
+          40,
+          72
+        ]
+      },
+      "blade_width": {
+        "units": "inches",
+        "range": [
+          4,
+          12
+        ]
+      },
+      "handle_grip_comfort": {
+        "units": "comfort rating",
+        "range": [
+          1,
+          10
+        ]
+      },
+      "tool_weight": {
+        "units": "pounds",
+        "range": [
+          2,
+          8
+        ]
+      },
+      "durability": {
+        "units": "years of expected use",
+        "range": [
+          2,
+          15
+        ]
+      }
+    },
+    "preference_weights": {
+      "handle_length": -77,
+      "blade_width": 24,
+      "handle_grip_comfort": -56,
+      "tool_weight": -100,
+      "durability": 0
+    }
+  },
+  "pilates_ring": {
+    "slug": "pilates_ring",
+    "question": "Which Pilates ring would you prefer?",
+    "role": "Queen Mandukhai",
+    "attributes": {
+      "ring_diameter": {
+        "units": "inches",
+        "range": [
+          12,
+          15
+        ]
+      },
+      "resistance_level": {
+        "units": "pounds of force",
+        "range": [
+          5,
+          20
+        ]
+      },
+      "padding_thickness": {
+        "units": "millimeters",
+        "range": [
+          5,
+          15
+        ]
+      },
+      "grip_quality": {
+        "units": "grip rating",
+        "range": [
+          1,
+          10
+        ]
+      },
+      "flexibility_rating": {
+        "units": "flex score",
+        "range": [
+          1,
+          10
+        ]
+      }
+    },
+    "preference_weights": {
+      "ring_diameter": -5,
+      "resistance_level": 97,
+      "padding_thickness": -61,
+      "grip_quality": 23,
+      "flexibility_rating": 100
+    }
+  },
+  "oven": {
+    "slug": "oven",
+    "question": "Which oven would you prefer?",
+    "role": "Margot Robbie",
+    "attributes": {
+      "capacity": {
+        "units": "cubic feet",
+        "range": [
+          2,
+          6
+        ]
+      },
+      "max_temperature": {
+        "units": "degrees fahrenheit",
+        "range": [
+          450,
+          550
+        ]
+      },
+      "preheat_time": {
+        "units": "minutes",
+        "range": [
+          5,
+          15
+        ]
+      },
+      "rack_positions": {
+        "units": "positions",
+        "range": [
+          3,
+          7
+        ]
+      },
+      "self_clean_duration": {
+        "units": "hours",
+        "range": [
+          2,
+          5
+        ]
+      }
+    },
+    "preference_weights": {
+      "capacity": -21,
+      "max_temperature": 100,
+      "preheat_time": -86,
+      "rack_positions": 45,
+      "self_clean_duration": 78
+    }
+  },
+  "sparkling_water": {
+    "slug": "sparkling_water",
+    "question": "Which sparkling water would you prefer?",
+    "role": "Grace Abbott",
+    "attributes": {
+      "carbonation_level": {
+        "units": "volumes of CO2",
+        "range": [
+          1,
+          5
+        ]
+      },
+      "mineral_content": {
+        "units": "parts per million",
+        "range": [
+          50,
+          500
+        ]
+      },
+      "bottle_size": {
+        "units": "fluid ounces",
+        "range": [
+          8,
+          33
+        ]
+      },
+      "flavor_intensity": {
+        "units": "rating out of 10",
+        "range": [
+          1,
+          10
+        ]
+      },
+      "bubble_size": {
+        "units": "microns",
+        "range": [
+          100,
+          1000
+        ]
+      }
+    },
+    "preference_weights": {
+      "carbonation_level": -71,
+      "mineral_content": -22,
+      "bottle_size": 8,
+      "flavor_intensity": -100,
+      "bubble_size": 41
+    }
+  },
+  "gas_can": {
+    "slug": "gas_can",
+    "question": "Which gas can would you prefer?",
+    "role": "Storm",
+    "attributes": {
+      "capacity": {
+        "units": "gallons",
+        "range": [
+          1,
+          5
+        ]
+      },
+      "flow_rate": {
+        "units": "gallons per minute",
+        "range": [
+          0.5,
+          3
+        ]
+      },
+      "durability_rating": {
+        "units": "years of expected life",
+        "range": [
+          2,
+          15
+        ]
+      },
+      "spout_length": {
+        "units": "inches",
+        "range": [
+          6,
+          18
+        ]
+      },
+      "empty_weight": {
+        "units": "pounds",
+        "range": [
+          1,
+          5
+        ]
+      }
+    },
+    "preference_weights": {
+      "capacity": 64,
+      "flow_rate": -92,
+      "durability_rating": 5,
+      "spout_length": 100,
+      "empty_weight": -56
+    }
+  },
+  "golf_cart": {
+    "slug": "golf_cart",
+    "question": "Which golf cart would you prefer?",
+    "role": "Dwight Schrute",
+    "attributes": {
+      "max_speed": {
+        "units": "miles per hour",
+        "range": [
+          12,
+          25
+        ]
+      },
+      "battery_life": {
+        "units": "hours",
+        "range": [
+          2,
+          8
+        ]
+      },
+      "seat_comfort": {
+        "units": "comfort rating",
+        "range": [
+          1,
+          10
+        ]
+      },
+      "storage_capacity": {
+        "units": "cubic feet",
+        "range": [
+          2,
+          8
+        ]
+      },
+      "turning_radius": {
+        "units": "feet",
+        "range": [
+          5,
+          12
+        ]
+      }
+    },
+    "preference_weights": {
+      "max_speed": -2,
+      "battery_life": -23,
+      "seat_comfort": -94,
+      "storage_capacity": -42,
+      "turning_radius": -100
+    }
+  },
+  "tongs": {
+    "slug": "tongs",
+    "question": "Which kitchen tongs would you prefer?",
+    "role": "Arkady Dolgoruky",
+    "attributes": {
+      "grip_length": {
+        "units": "inches",
+        "range": [
+          3,
+          8
+        ]
+      },
+      "total_length": {
+        "units": "inches",
+        "range": [
+          9,
+          16
+        ]
+      },
+      "grip_cushioning": {
+        "units": "millimeters of padding",
+        "range": [
+          0,
+          8
+        ]
+      },
+      "spring_tension": {
+        "units": "newtons",
+        "range": [
+          2,
+          10
+        ]
+      },
+      "heat_resistance": {
+        "units": "degrees fahrenheit",
+        "range": [
+          200,
+          600
+        ]
+      }
+    },
+    "preference_weights": {
+      "grip_length": -31,
+      "total_length": -73,
+      "grip_cushioning": -44,
+      "spring_tension": 61,
+      "heat_resistance": -100
+    }
+  },
+  "sippy_cup": {
+    "slug": "sippy_cup",
+    "question": "Which sippy cup would you prefer?",
+    "role": "Omar Khayyam",
+    "attributes": {
+      "capacity": {
+        "units": "fluid ounces",
+        "range": [
+          6,
+          12
+        ]
+      },
+      "spout_size": {
+        "units": "millimeters",
+        "range": [
+          8,
+          15
+        ]
+      },
+      "handle_length": {
+        "units": "inches",
+        "range": [
+          1.5,
+          3
+        ]
+      },
+      "spill_resistance": {
+        "units": "resistance score",
+        "range": [
+          1,
+          10
+        ]
+      },
+      "grip_texture": {
+        "units": "texture rating",
+        "range": [
+          1,
+          10
+        ]
+      }
+    },
+    "preference_weights": {
+      "capacity": 100,
+      "spout_size": 89,
+      "handle_length": 40,
+      "spill_resistance": -76,
+      "grip_texture": -73
+    }
+  },
+  "windshield_cover": {
+    "slug": "windshield_cover",
+    "question": "Which windshield cover would you prefer?",
+    "role": "Fibonacci",
+    "attributes": {
+      "water_resistance": {
+        "units": "hours before leaking",
+        "range": [
+          2,
+          24
+        ]
+      },
+      "insulation_rating": {
+        "units": "thermal resistance R-value",
+        "range": [
+          1,
+          5
+        ]
+      },
+      "uv_protection": {
+        "units": "percent of UV rays blocked",
+        "range": [
+          70,
+          99
+        ]
+      },
+      "fold_compactness": {
+        "units": "cubic inches when folded",
+        "range": [
+          50,
+          300
+        ]
+      },
+      "wind_resistance": {
+        "units": "maximum wind speed in mph",
+        "range": [
+          20,
+          60
+        ]
+      }
+    },
+    "preference_weights": {
+      "water_resistance": 58,
+      "insulation_rating": 26,
+      "uv_protection": 98,
+      "fold_compactness": -90,
+      "wind_resistance": -100
+    }
+  },
+  "console": {
+    "slug": "console",
+    "question": "Which gaming console would you prefer?",
+    "role": "Queen Nebet",
+    "attributes": {
+      "storage_capacity": {
+        "units": "gigabytes",
+        "range": [
+          250,
+          2000
+        ]
+      },
+      "exclusive_games": {
+        "units": "number of exclusive titles",
+        "range": [
+          5,
+          50
+        ]
+      },
+      "processing_power": {
+        "units": "teraflops",
+        "range": [
+          4,
+          15
+        ]
+      },
+      "online_players": {
+        "units": "million monthly active users",
+        "range": [
+          20,
+          100
+        ]
+      },
+      "warranty_length": {
+        "units": "months",
+        "range": [
+          12,
+          36
+        ]
+      }
+    },
+    "preference_weights": {
+      "storage_capacity": 53,
+      "exclusive_games": 100,
+      "processing_power": -73,
+      "online_players": -81,
+      "warranty_length": 58
+    }
+  },
+  "stapler": {
+    "slug": "stapler",
+    "question": "Which stapler would you prefer?",
+    "role": "Kylie Jenner",
+    "attributes": {
+      "staple_capacity": {
+        "units": "staples",
+        "range": [
+          50,
+          500
+        ]
+      },
+      "max_sheet_capacity": {
+        "units": "sheets",
+        "range": [
+          10,
+          100
+        ]
+      },
+      "grip_comfort": {
+        "units": "comfort rating",
+        "range": [
+          1,
+          10
+        ]
+      },
+      "jam_resistance": {
+        "units": "jam resistance rating",
+        "range": [
+          1,
+          10
+        ]
+      },
+      "durability": {
+        "units": "years of expected use",
+        "range": [
+          1,
+          10
+        ]
+      }
+    },
+    "preference_weights": {
+      "staple_capacity": -100,
+      "max_sheet_capacity": -46,
+      "grip_comfort": -63,
+      "jam_resistance": 74,
+      "durability": -1
+    }
+  },
+  "jewelry_kit": {
+    "slug": "jewelry_kit",
+    "question": "Which jewelry making starter kit would you prefer?",
+    "role": "Wolfgang Amadeus Mozart",
+    "attributes": {
+      "tool_quantity": {
+        "units": "count",
+        "range": [
+          3,
+          15
+        ]
+      },
+      "findings_quantity": {
+        "units": "count",
+        "range": [
+          50,
+          500
+        ]
+      },
+      "storage_compartments": {
+        "units": "count",
+        "range": [
+          4,
+          24
+        ]
+      },
+      "plier_grip_length": {
+        "units": "inches",
+        "range": [
+          3,
+          6
+        ]
+      },
+      "organization_rating": {
+        "units": "rating out of 100",
+        "range": [
+          1,
+          100
+        ]
+      }
+    },
+    "preference_weights": {
+      "tool_quantity": -89,
+      "findings_quantity": 100,
+      "storage_compartments": -82,
+      "plier_grip_length": -75,
+      "organization_rating": 10
+    }
+  },
+  "antenna": {
+    "slug": "antenna",
+    "question": "Which TV antenna would you prefer?",
+    "role": "James Bond",
+    "attributes": {
+      "reception_range": {
+        "units": "miles",
+        "range": [
+          25,
+          150
+        ]
+      },
+      "number_of_channels_received": {
+        "units": "channels",
+        "range": [
+          20,
+          100
+        ]
+      },
+      "signal_strength": {
+        "units": "decibels",
+        "range": [
+          40,
+          100
+        ]
+      },
+      "weather_resistance": {
+        "units": "mph wind resistance",
+        "range": [
+          30,
+          120
+        ]
+      },
+      "size_compactness": {
+        "units": "inches diagonal",
+        "range": [
+          10,
+          40
+        ]
+      }
+    },
+    "preference_weights": {
+      "reception_range": -40,
+      "number_of_channels_received": 100,
+      "signal_strength": 29,
+      "weather_resistance": 14,
+      "size_compactness": 95
+    }
+  },
+  "house": {
+    "slug": "house",
+    "question": "Which house would you prefer?",
+    "role": "Cersei Lannister",
+    "attributes": {
+      "lot_size": {
+        "units": "acres",
+        "range": [
+          0.1,
+          2.0
+        ]
+      },
+      "square_footage": {
+        "units": "square feet",
+        "range": [
+          1000,
+          4000
+        ]
+      },
+      "age_of_house": {
+        "units": "years",
+        "range": [
+          0,
+          100
+        ]
+      },
+      "distance_to_school": {
+        "units": "miles",
+        "range": [
+          0.1,
+          5.0
+        ]
+      },
+      "energy_efficiency": {
+        "units": "energy rating",
+        "range": [
+          1,
+          100
+        ]
+      }
+    },
+    "preference_weights": {
+      "lot_size": -15,
+      "square_footage": 31,
+      "age_of_house": 38,
+      "distance_to_school": 100,
+      "energy_efficiency": 31
+    }
+  },
+  "electric_grill": {
+    "slug": "electric_grill",
+    "question": "Which electric grill would you prefer?",
+    "role": "Erik Satie",
+    "attributes": {
+      "cooking_surface_area": {
+        "units": "square inches",
+        "range": [
+          100,
+          500
+        ]
+      },
+      "max_temperature": {
+        "units": "degrees fahrenheit",
+        "range": [
+          400,
+          600
+        ]
+      },
+      "heat_up_time": {
+        "units": "minutes",
+        "range": [
+          5,
+          20
+        ]
+      },
+      "power_rating": {
+        "units": "watts",
+        "range": [
+          1200,
+          2400
+        ]
+      },
+      "cord_length": {
+        "units": "feet",
+        "range": [
+          3,
+          10
+        ]
+      }
+    },
+    "preference_weights": {
+      "cooking_surface_area": 98,
+      "max_temperature": -100,
+      "heat_up_time": -36,
+      "power_rating": 89,
+      "cord_length": -80
+    }
+  },
+  "tea": {
+    "slug": "tea",
+    "question": "Which tea would you prefer?",
+    "role": "Iron Giant",
+    "attributes": {
+      "caffeine_content": {
+        "units": "mg per cup",
+        "range": [
+          0,
+          70
+        ]
+      },
+      "steeping_time": {
+        "units": "minutes",
+        "range": [
+          1,
+          10
+        ]
+      },
+      "antioxidant_level": {
+        "units": "mg per cup",
+        "range": [
+          50,
+          400
+        ]
+      },
+      "aroma_intensity": {
+        "units": "intensity score",
+        "range": [
+          1,
+          10
+        ]
+      },
+      "astringency": {
+        "units": "astringency score",
+        "range": [
+          1,
+          10
+        ]
+      }
+    },
+    "preference_weights": {
+      "caffeine_content": 68,
+      "steeping_time": -100,
+      "antioxidant_level": 2,
+      "aroma_intensity": -11,
+      "astringency": 37
+    }
+  },
+  "lint_roller": {
+    "slug": "lint_roller",
+    "question": "Which lint roller would you prefer?",
+    "role": "Fred Flintstone",
+    "attributes": {
+      "sheet_count": {
+        "units": "sheets per roll",
+        "range": [
+          30,
+          120
+        ]
+      },
+      "roller_width": {
+        "units": "inches",
+        "range": [
+          2,
+          6
+        ]
+      },
+      "adhesive_strength": {
+        "units": "grams of force",
+        "range": [
+          50,
+          200
+        ]
+      },
+      "handle_length": {
+        "units": "inches",
+        "range": [
+          4,
+          12
+        ]
+      },
+      "grip_comfort": {
+        "units": "comfort rating",
+        "range": [
+          1,
+          10
+        ]
+      }
+    },
+    "preference_weights": {
+      "sheet_count": -100,
+      "roller_width": 73,
+      "adhesive_strength": -47,
+      "handle_length": -97,
+      "grip_comfort": -99
+    }
+  },
+  "diaper_bag": {
+    "slug": "diaper_bag",
+    "question": "Which diaper bag would you prefer?",
+    "role": "Cher Horowitz",
+    "attributes": {
+      "storage_volume": {
+        "units": "liters",
+        "range": [
+          10,
+          35
+        ]
+      },
+      "number_of_pockets": {
+        "units": "count",
+        "range": [
+          4,
+          20
+        ]
+      },
+      "strap_length": {
+        "units": "inches",
+        "range": [
+          25,
+          50
+        ]
+      },
+      "bag_weight": {
+        "units": "ounces",
+        "range": [
+          12,
+          48
+        ]
+      },
+      "water_resistance": {
+        "units": "hours of water protection",
+        "range": [
+          1,
+          8
+        ]
+      }
+    },
+    "preference_weights": {
+      "storage_volume": -85,
+      "number_of_pockets": 76,
+      "strap_length": -100,
+      "bag_weight": 38,
+      "water_resistance": -42
+    }
+  },
+  "sponges": {
+    "slug": "sponges",
+    "question": "Which kitchen sponge would you prefer?",
+    "role": "Françoise Barré-Sinoussi",
+    "attributes": {
+      "durability": {
+        "units": "days until replacement needed",
+        "range": [
+          7,
+          90
+        ]
+      },
+      "scrubbing_power": {
+        "units": "abrasiveness rating out of 10",
+        "range": [
+          1,
+          10
+        ]
+      },
+      "absorption_capacity": {
+        "units": "milliliters",
+        "range": [
+          20,
+          200
+        ]
+      },
+      "bacteria_resistance": {
+        "units": "hours before bacterial growth",
+        "range": [
+          24,
+          168
+        ]
+      },
+      "drying_speed": {
+        "units": "minutes until dry",
+        "range": [
+          30,
+          240
+        ]
+      }
+    },
+    "preference_weights": {
+      "durability": 27,
+      "scrubbing_power": 43,
+      "absorption_capacity": -71,
+      "bacteria_resistance": 100,
+      "drying_speed": 68
+    }
+  },
+  "popcorn": {
+    "slug": "popcorn",
+    "question": "Which popcorn would you prefer?",
+    "role": "Balthazar",
+    "attributes": {
+      "serving_size": {
+        "units": "cups",
+        "range": [
+          2,
+          8
+        ]
+      },
+      "fiber_content": {
+        "units": "grams per serving",
+        "range": [
+          2,
+          8
+        ]
+      },
+      "butter_content": {
+        "units": "grams per serving",
+        "range": [
+          0,
+          15
+        ]
+      },
+      "sodium_content": {
+        "units": "milligrams per serving",
+        "range": [
+          0,
+          300
+        ]
+      },
+      "calories_per_serving": {
+        "units": "calories",
+        "range": [
+          30,
+          160
+        ]
+      }
+    },
+    "preference_weights": {
+      "serving_size": 49,
+      "fiber_content": 100,
+      "butter_content": 43,
+      "sodium_content": -55,
+      "calories_per_serving": -95
+    }
+  },
+  "recliner": {
+    "slug": "recliner",
+    "question": "Which recliner would you prefer?",
+    "role": "Daenerys Targaryen",
+    "attributes": {
+      "recline_angle": {
+        "units": "degrees",
+        "range": [
+          120,
+          180
+        ]
+      },
+      "seat_width": {
+        "units": "inches",
+        "range": [
+          20,
+          30
+        ]
+      },
+      "cushion_thickness": {
+        "units": "inches",
+        "range": [
+          4,
+          12
+        ]
+      },
+      "lumbar_support": {
+        "units": "support rating",
+        "range": [
+          1,
+          10
+        ]
+      },
+      "footrest_length": {
+        "units": "inches",
+        "range": [
+          12,
+          24
+        ]
+      }
+    },
+    "preference_weights": {
+      "recline_angle": -100,
+      "seat_width": 3,
+      "cushion_thickness": 86,
+      "lumbar_support": -87,
+      "footrest_length": 13
+    }
+  },
+  "arrows": {
+    "slug": "arrows",
+    "question": "Which archery arrows would you prefer?",
+    "role": "Marcus Rashford",
+    "attributes": {
+      "straightness": {
+        "units": "thousandths of an inch",
+        "range": [
+          2,
+          6
+        ]
+      },
+      "spine_stiffness": {
+        "units": "spine rating",
+        "range": [
+          300,
+          600
+        ]
+      },
+      "weight_grains": {
+        "units": "grains",
+        "range": [
+          350,
+          500
+        ]
+      },
+      "durability_rating": {
+        "units": "durability score",
+        "range": [
+          1,
+          10
+        ]
+      },
+      "fletching_length": {
+        "units": "inches",
+        "range": [
+          2,
+          4
+        ]
+      }
+    },
+    "preference_weights": {
+      "straightness": 27,
+      "spine_stiffness": -44,
+      "weight_grains": -100,
+      "durability_rating": 58,
+      "fletching_length": -40
+    }
+  },
+  "pattern_weights": {
+    "slug": "pattern_weights",
+    "question": "Which pattern weights would you prefer?",
+    "role": "Christopher Nolan",
+    "attributes": {
+      "weight_per_piece": {
+        "units": "ounces",
+        "range": [
+          2,
+          16
+        ]
+      },
+      "stability": {
+        "units": "stability rating",
+        "range": [
+          1,
+          10
+        ]
+      },
+      "fabric_protection": {
+        "units": "protection rating",
+        "range": [
+          1,
+          10
+        ]
+      },
+      "pieces_per_set": {
+        "units": "count",
+        "range": [
+          4,
+          20
+        ]
+      },
+      "ease_of_placement": {
+        "units": "ease rating",
+        "range": [
+          1,
+          10
+        ]
+      }
+    },
+    "preference_weights": {
+      "weight_per_piece": 53,
+      "stability": 50,
+      "fabric_protection": -55,
+      "pieces_per_set": 16,
+      "ease_of_placement": -100
+    }
+  },
+  "wheelbarrow": {
+    "slug": "wheelbarrow",
+    "question": "Which wheelbarrow would you prefer?",
+    "role": "Anna Karenina",
+    "attributes": {
+      "load_capacity": {
+        "units": "pounds",
+        "range": [
+          200,
+          800
+        ]
+      },
+      "tray_volume": {
+        "units": "cubic feet",
+        "range": [
+          4,
+          10
+        ]
+      },
+      "tire_diameter": {
+        "units": "inches",
+        "range": [
+          12,
+          20
+        ]
+      },
+      "handle_grip_comfort": {
+        "units": "comfort rating",
+        "range": [
+          1,
+          10
+        ]
+      },
+      "stability_rating": {
+        "units": "rating",
+        "range": [
+          1,
+          10
+        ]
+      }
+    },
+    "preference_weights": {
+      "load_capacity": 51,
+      "tray_volume": -80,
+      "tire_diameter": -8,
+      "handle_grip_comfort": -67,
+      "stability_rating": 100
+    }
+  },
+  "soil": {
+    "slug": "soil",
+    "question": "Which garden soil would you prefer?",
+    "role": "Alice Hamilton",
+    "attributes": {
+      "nutrient_content": {
+        "units": "rating",
+        "range": [
+          1,
+          10
+        ]
+      },
+      "moisture_retention": {
+        "units": "rating",
+        "range": [
+          1,
+          10
+        ]
+      },
+      "organic_matter": {
+        "units": "percent",
+        "range": [
+          0,
+          100
+        ]
+      },
+      "drainage_rating": {
+        "units": "rating",
+        "range": [
+          1,
+          10
+        ]
+      },
+      "ph_level": {
+        "units": "pH",
+        "range": [
+          4,
+          8
+        ]
+      }
+    },
+    "preference_weights": {
+      "nutrient_content": 68,
+      "moisture_retention": -53,
+      "organic_matter": 84,
+      "drainage_rating": 88,
+      "ph_level": -100
+    }
+  },
+  "sleeping_bag": {
+    "slug": "sleeping_bag",
+    "question": "Which sleeping bag would you prefer?",
+    "role": "Count Dracula",
+    "attributes": {
+      "temperature_rating": {
+        "units": "degrees fahrenheit",
+        "range": [
+          0,
+          50
+        ]
+      },
+      "packed_volume": {
+        "units": "liters",
+        "range": [
+          2,
+          15
+        ]
+      },
+      "insulation_loft": {
+        "units": "inches",
+        "range": [
+          1,
+          5
+        ]
+      },
+      "interior_length": {
+        "units": "inches",
+        "range": [
+          72,
+          90
+        ]
+      },
+      "shoulder_girth": {
+        "units": "inches",
+        "range": [
+          58,
+          76
+        ]
+      }
+    },
+    "preference_weights": {
+      "temperature_rating": 100,
+      "packed_volume": -43,
+      "insulation_loft": 59,
+      "interior_length": -16,
+      "shoulder_girth": -76
+    }
+  },
+  "paper_towel": {
+    "slug": "paper_towel",
+    "question": "Which paper towels would you prefer?",
+    "role": "Josef K.",
+    "attributes": {
+      "sheet_size": {
+        "units": "square inches",
+        "range": [
+          36,
+          110
+        ]
+      },
+      "sheets_per_roll": {
+        "units": "number of sheets",
+        "range": [
+          45,
+          160
+        ]
+      },
+      "absorption_capacity": {
+        "units": "milliliters per sheet",
+        "range": [
+          20,
+          50
+        ]
+      },
+      "wet_strength": {
+        "units": "pounds of force",
+        "range": [
+          1,
+          3
+        ]
+      },
+      "thickness": {
+        "units": "millimeters",
+        "range": [
+          0.3,
+          0.8
+        ]
+      }
+    },
+    "preference_weights": {
+      "sheet_size": -5,
+      "sheets_per_roll": -65,
+      "absorption_capacity": 77,
+      "wet_strength": -94,
+      "thickness": -100
+    }
+  },
+  "outdoor_tv_cover": {
+    "slug": "outdoor_tv_cover",
+    "question": "Which outdoor TV cover would you prefer?",
+    "role": "Thor",
+    "attributes": {
+      "water_resistance": {
+        "units": "millimeters water column",
+        "range": [
+          1000,
+          5000
+        ]
+      },
+      "uv_protection": {
+        "units": "UPF rating",
+        "range": [
+          30,
+          100
+        ]
+      },
+      "material_thickness": {
+        "units": "millimeters",
+        "range": [
+          0.2,
+          1.0
+        ]
+      },
+      "ventilation_holes": {
+        "units": "number of holes",
+        "range": [
+          2,
+          12
+        ]
+      },
+      "ease_of_installation": {
+        "units": "rating out of 10",
+        "range": [
+          1,
+          10
+        ]
+      }
+    },
+    "preference_weights": {
+      "water_resistance": 19,
+      "uv_protection": 30,
+      "material_thickness": -95,
+      "ventilation_holes": -100,
+      "ease_of_installation": 46
+    }
+  },
+  "tamper": {
+    "slug": "tamper",
+    "question": "Which espresso tamper would you prefer?",
+    "role": "Edgar Degas",
+    "attributes": {
+      "base_diameter": {
+        "units": "millimeters",
+        "range": [
+          49,
+          58
+        ]
+      },
+      "handle_length": {
+        "units": "millimeters",
+        "range": [
+          80,
+          120
+        ]
+      },
+      "total_weight": {
+        "units": "grams",
+        "range": [
+          300,
+          600
+        ]
+      },
+      "surface_smoothness": {
+        "units": "roughness score",
+        "range": [
+          1,
+          10
+        ]
+      },
+      "grip_comfort": {
+        "units": "ergonomic rating",
+        "range": [
+          1,
+          10
+        ]
+      }
+    },
+    "preference_weights": {
+      "base_diameter": 34,
+      "handle_length": -89,
+      "total_weight": -100,
+      "surface_smoothness": 63,
+      "grip_comfort": 23
+    }
+  },
+  "garment_steamer": {
+    "slug": "garment_steamer",
+    "question": "Which garment steamer would you prefer?",
+    "role": "Anna Pavlova",
+    "attributes": {
+      "water_capacity": {
+        "units": "milliliters",
+        "range": [
+          100,
+          2000
+        ]
+      },
+      "heat_up_time": {
+        "units": "seconds",
+        "range": [
+          15,
+          120
+        ]
+      },
+      "steam_time": {
+        "units": "minutes",
+        "range": [
+          8,
+          60
+        ]
+      },
+      "cord_length": {
+        "units": "feet",
+        "range": [
+          5,
+          15
+        ]
+      },
+      "steam_output": {
+        "units": "grams per minute",
+        "range": [
+          15,
+          40
+        ]
+      }
+    },
+    "preference_weights": {
+      "water_capacity": -7,
+      "heat_up_time": -100,
+      "steam_time": -51,
+      "cord_length": -91,
+      "steam_output": -34
+    }
+  },
+  "alcohol_markers": {
+    "slug": "alcohol_markers",
+    "question": "Which set of alcohol-based markers would you prefer?",
+    "role": "Jean Valjean",
+    "attributes": {
+      "color_count": {
+        "units": "number of colors",
+        "range": [
+          24,
+          216
+        ]
+      },
+      "ink_capacity": {
+        "units": "milliliters",
+        "range": [
+          1,
+          5
+        ]
+      },
+      "tip_firmness": {
+        "units": "durometer rating",
+        "range": [
+          50,
+          90
+        ]
+      },
+      "bleed_resistance": {
+        "units": "layers before bleeding",
+        "range": [
+          2,
+          8
+        ]
+      },
+      "stroke_smoothness": {
+        "units": "smoothness rating",
+        "range": [
+          1,
+          10
+        ]
+      }
+    },
+    "preference_weights": {
+      "color_count": -100,
+      "ink_capacity": 22,
+      "tip_firmness": 17,
+      "bleed_resistance": -33,
+      "stroke_smoothness": -44
+    }
+  },
+  "rabbit": {
+    "slug": "rabbit",
+    "question": "Which pet rabbit would you prefer?",
+    "role": "Joey Tribbiani",
+    "attributes": {
+      "life_expectancy": {
+        "units": "years",
+        "range": [
+          8,
+          14
+        ]
+      },
+      "adult_weight": {
+        "units": "pounds",
+        "range": [
+          2,
+          20
+        ]
+      },
+      "grooming_needs": {
+        "units": "hours per week",
+        "range": [
+          1,
+          5
+        ]
+      },
+      "sociability": {
+        "units": "interaction hours per day",
+        "range": [
+          2,
+          8
+        ]
+      },
+      "activity_level": {
+        "units": "hours of exercise needed per day",
+        "range": [
+          2,
+          6
+        ]
+      }
+    },
+    "preference_weights": {
+      "life_expectancy": -16,
+      "adult_weight": -55,
+      "grooming_needs": 48,
+      "sociability": 100,
+      "activity_level": 87
+    }
+  },
+  "bracelet": {
+    "slug": "bracelet",
+    "question": "Which bracelet would you prefer?",
+    "role": "an urban planner",
+    "attributes": {
+      "band_width": {
+        "units": "millimeters",
+        "range": [
+          2,
+          20
+        ]
+      },
+      "weight": {
+        "units": "grams",
+        "range": [
+          10,
+          100
+        ]
+      },
+      "flexibility": {
+        "units": "degrees of bend",
+        "range": [
+          45,
+          360
+        ]
+      },
+      "surface_shine": {
+        "units": "percent light reflected",
+        "range": [
+          10,
+          95
+        ]
+      },
+      "clasp_strength": {
+        "units": "pounds of force to open",
+        "range": [
+          0.5,
+          5
+        ]
+      }
+    },
+    "preference_weights": {
+      "band_width": 87,
+      "weight": -75,
+      "flexibility": -89,
+      "surface_shine": -100,
+      "clasp_strength": -65
+    }
+  },
+  "adapter": {
+    "slug": "adapter",
+    "question": "Which power adapter would you prefer?",
+    "role": "John Singer Sargent",
+    "attributes": {
+      "power_output": {
+        "units": "watts",
+        "range": [
+          30,
+          140
+        ]
+      },
+      "number_of_ports": {
+        "units": "ports",
+        "range": [
+          1,
+          6
+        ]
+      },
+      "cord_length": {
+        "units": "feet",
+        "range": [
+          3,
+          10
+        ]
+      },
+      "weight": {
+        "units": "ounces",
+        "range": [
+          3,
+          16
+        ]
+      },
+      "charging_speed": {
+        "units": "minutes to full charge",
+        "range": [
+          30,
+          180
+        ]
+      }
+    },
+    "preference_weights": {
+      "power_output": 79,
+      "number_of_ports": 89,
+      "cord_length": -100,
+      "weight": 31,
+      "charging_speed": -43
+    }
+  },
+  "night_light": {
+    "slug": "night_light",
+    "question": "Which night light would you prefer?",
+    "role": "a textile conservator",
+    "attributes": {
+      "brightness": {
+        "units": "lumens",
+        "range": [
+          1,
+          100
+        ]
+      },
+      "coverage_angle": {
+        "units": "degrees",
+        "range": [
+          60,
+          180
+        ]
+      },
+      "sensor_distance": {
+        "units": "feet",
+        "range": [
+          5,
+          30
+        ]
+      },
+      "auto_shutoff_delay": {
+        "units": "seconds",
+        "range": [
+          10,
+          300
+        ]
+      },
+      "projected_area": {
+        "units": "square feet",
+        "range": [
+          2,
+          20
+        ]
+      }
+    },
+    "preference_weights": {
+      "brightness": 98,
+      "coverage_angle": -100,
+      "sensor_distance": -86,
+      "auto_shutoff_delay": 67,
+      "projected_area": 76
+    }
+  },
+  "travel_wallet": {
+    "slug": "travel_wallet",
+    "question": "Which travel wallet would you prefer?",
+    "role": "Izanagi",
+    "attributes": {
+      "passport_slots": {
+        "units": "number of slots",
+        "range": [
+          1,
+          6
+        ]
+      },
+      "card_capacity": {
+        "units": "number of cards",
+        "range": [
+          4,
+          20
+        ]
+      },
+      "document_compartments": {
+        "units": "number of compartments",
+        "range": [
+          2,
+          12
+        ]
+      },
+      "water_resistance": {
+        "units": "minutes in rain",
+        "range": [
+          5,
+          120
+        ]
+      },
+      "thickness_when_empty": {
+        "units": "millimeters",
+        "range": [
+          5,
+          30
+        ]
+      }
+    },
+    "preference_weights": {
+      "passport_slots": 74,
+      "card_capacity": -37,
+      "document_compartments": -100,
+      "water_resistance": 38,
+      "thickness_when_empty": -1
+    }
+  },
+  "central_vacuum": {
+    "slug": "central_vacuum",
+    "question": "Which central vacuum system would you prefer?",
+    "role": "Tūmatauenga",
+    "attributes": {
+      "suction_power": {
+        "units": "air watts",
+        "range": [
+          500,
+          1200
+        ]
+      },
+      "noise_level": {
+        "units": "decibels",
+        "range": [
+          55,
+          85
+        ]
+      },
+      "dirt_capacity": {
+        "units": "gallons",
+        "range": [
+          3,
+          15
+        ]
+      },
+      "hose_reach": {
+        "units": "feet",
+        "range": [
+          30,
+          50
+        ]
+      },
+      "filtration_efficiency": {
+        "units": "percent",
+        "range": [
+          85,
+          99.9
+        ]
+      }
+    },
+    "preference_weights": {
+      "suction_power": 8,
+      "noise_level": -4,
+      "dirt_capacity": -20,
+      "hose_reach": -100,
+      "filtration_efficiency": 47
+    }
+  },
+  "microwave_cover": {
+    "slug": "microwave_cover",
+    "question": "Which microwave splatter cover would you prefer?",
+    "role": "a cricket farmer",
+    "attributes": {
+      "diameter": {
+        "units": "inches",
+        "range": [
+          8,
+          14
+        ]
+      },
+      "vent_holes": {
+        "units": "number of holes",
+        "range": [
+          4,
+          24
+        ]
+      },
+      "collapse_height": {
+        "units": "inches",
+        "range": [
+          0.5,
+          3
+        ]
+      },
+      "heat_resistance": {
+        "units": "degrees fahrenheit",
+        "range": [
+          150,
+          450
+        ]
+      },
+      "transparency": {
+        "units": "percent",
+        "range": [
+          0,
+          100
+        ]
+      }
+    },
+    "preference_weights": {
+      "diameter": 5,
+      "vent_holes": 17,
+      "collapse_height": -100,
+      "heat_resistance": -54,
+      "transparency": -23
+    }
+  },
+  "porch_swing": {
+    "slug": "porch_swing",
+    "question": "Which porch swing would you prefer?",
+    "role": "a cryptographer",
+    "attributes": {
+      "seating_capacity": {
+        "units": "number of adults",
+        "range": [
+          2,
+          4
+        ]
+      },
+      "back_support_angle": {
+        "units": "degrees from vertical",
+        "range": [
+          10,
+          30
+        ]
+      },
+      "seat_depth": {
+        "units": "inches",
+        "range": [
+          18,
+          30
+        ]
+      },
+      "chain_strength": {
+        "units": "pounds of tension strength",
+        "range": [
+          500,
+          1500
+        ]
+      },
+      "weather_resistance": {
+        "units": "years of outdoor durability",
+        "range": [
+          5,
+          20
+        ]
+      }
+    },
+    "preference_weights": {
+      "seating_capacity": 23,
+      "back_support_angle": -90,
+      "seat_depth": 100,
+      "chain_strength": -79,
+      "weather_resistance": -43
+    }
+  },
+  "stability_ball": {
+    "slug": "stability_ball",
+    "question": "Which stability ball would you prefer?",
+    "role": "Simba",
+    "attributes": {
+      "ball_diameter": {
+        "units": "centimeters",
+        "range": [
+          45,
+          85
+        ]
+      },
+      "burst_resistance": {
+        "units": "pounds",
+        "range": [
+          500,
+          2000
+        ]
+      },
+      "surface_grip_rating": {
+        "units": "friction coefficient",
+        "range": [
+          0.3,
+          0.9
+        ]
+      },
+      "material_thickness": {
+        "units": "millimeters",
+        "range": [
+          1,
+          4
+        ]
+      },
+      "anti_burst_rating": {
+        "units": "pounds per square inch",
+        "range": [
+          100,
+          300
+        ]
+      }
+    },
+    "preference_weights": {
+      "ball_diameter": 100,
+      "burst_resistance": 4,
+      "surface_grip_rating": -93,
+      "material_thickness": -20,
+      "anti_burst_rating": -82
+    }
+  },
+  "ink_cartridge": {
+    "slug": "ink_cartridge",
+    "question": "Which ink cartridge would you prefer?",
+    "role": "Baba Yaga",
+    "attributes": {
+      "ink_capacity": {
+        "units": "milliliters",
+        "range": [
+          0.5,
+          3
+        ]
+      },
+      "flow_consistency": {
+        "units": "hours without skipping",
+        "range": [
+          2,
+          24
+        ]
+      },
+      "drying_time": {
+        "units": "seconds",
+        "range": [
+          3,
+          60
+        ]
+      },
+      "color_saturation": {
+        "units": "percent",
+        "range": [
+          70,
+          100
+        ]
+      },
+      "shelf_life": {
+        "units": "months",
+        "range": [
+          12,
+          48
+        ]
+      }
+    },
+    "preference_weights": {
+      "ink_capacity": -100,
+      "flow_consistency": 45,
+      "drying_time": 25,
+      "color_saturation": 61,
+      "shelf_life": 95
+    }
+  },
+  "wood_glue": {
+    "slug": "wood_glue",
+    "question": "Which wood glue would you prefer?",
+    "role": "a glass blower",
+    "attributes": {
+      "open_time": {
+        "units": "minutes",
+        "range": [
+          5,
+          30
+        ]
+      },
+      "clamp_time": {
+        "units": "hours",
+        "range": [
+          0.5,
+          24
+        ]
+      },
+      "water_resistance": {
+        "units": "rating out of 10",
+        "range": [
+          1,
+          10
+        ]
+      },
+      "bond_strength": {
+        "units": "psi",
+        "range": [
+          2000,
+          4000
+        ]
+      },
+      "temperature_resistance": {
+        "units": "degrees Fahrenheit",
+        "range": [
+          120,
+          200
+        ]
+      }
+    },
+    "preference_weights": {
+      "open_time": 88,
+      "clamp_time": -37,
+      "water_resistance": 100,
+      "bond_strength": -4,
+      "temperature_resistance": 7
+    }
+  },
+  "sleep_sack": {
+    "slug": "sleep_sack",
+    "question": "Which sleep sack would you prefer?",
+    "role": "Coco Chanel",
+    "attributes": {
+      "warmth_rating": {
+        "units": "TOG rating",
+        "range": [
+          0.5,
+          3.5
+        ]
+      },
+      "length": {
+        "units": "inches",
+        "range": [
+          24,
+          36
+        ]
+      },
+      "zipper_length": {
+        "units": "inches",
+        "range": [
+          8,
+          20
+        ]
+      },
+      "neck_circumference": {
+        "units": "inches",
+        "range": [
+          10,
+          14
+        ]
+      },
+      "fabric_weight": {
+        "units": "ounces per square yard",
+        "range": [
+          3,
+          12
+        ]
+      }
+    },
+    "preference_weights": {
+      "warmth_rating": 75,
+      "length": 10,
+      "zipper_length": -54,
+      "neck_circumference": -100,
+      "fabric_weight": -91
+    }
+  },
+  "mixer": {
+    "slug": "mixer",
+    "question": "Which stand mixer would you prefer?",
+    "role": "Saleem Sinai",
+    "attributes": {
+      "motor_power": {
+        "units": "watts",
+        "range": [
+          250,
+          1000
+        ]
+      },
+      "bowl_capacity": {
+        "units": "quarts",
+        "range": [
+          3,
+          8
+        ]
+      },
+      "speed_settings": {
+        "units": "number of speeds",
+        "range": [
+          3,
+          12
+        ]
+      },
+      "attachment_compatibility": {
+        "units": "number of compatible attachments",
+        "range": [
+          3,
+          15
+        ]
+      },
+      "kneading_efficiency": {
+        "units": "minutes to knead standard bread dough",
+        "range": [
+          3,
+          10
+        ]
+      }
+    },
+    "preference_weights": {
+      "motor_power": 74,
+      "bowl_capacity": 34,
+      "speed_settings": -100,
+      "attachment_compatibility": 84,
+      "kneading_efficiency": 77
+    }
+  },
+  "dominoes": {
+    "slug": "dominoes",
+    "question": "Which dominoes set would you prefer?",
+    "role": "Alexander von Humboldt",
+    "attributes": {
+      "domino_size": {
+        "units": "millimeters length",
+        "range": [
+          35,
+          75
+        ]
+      },
+      "pip_visibility": {
+        "units": "viewing distance in feet",
+        "range": [
+          1,
+          5
+        ]
+      },
+      "tile_weight": {
+        "units": "grams",
+        "range": [
+          8,
+          25
+        ]
+      },
+      "case_durability": {
+        "units": "years of expected life",
+        "range": [
+          2,
+          15
+        ]
+      },
+      "impact_resistance": {
+        "units": "drop height in inches",
+        "range": [
+          12,
+          48
+        ]
+      }
+    },
+    "preference_weights": {
+      "domino_size": -95,
+      "pip_visibility": -53,
+      "tile_weight": 88,
+      "case_durability": -7,
+      "impact_resistance": -100
+    }
+  },
+  "crochet_hook": {
+    "slug": "crochet_hook",
+    "question": "Which crochet hook would you prefer?",
+    "role": "Freyja",
+    "attributes": {
+      "handle_length": {
+        "units": "inches",
+        "range": [
+          4,
+          8
+        ]
+      },
+      "grip_cushioning": {
+        "units": "millimeters of padding",
+        "range": [
+          0,
+          5
+        ]
+      },
+      "handle_diameter": {
+        "units": "millimeters",
+        "range": [
+          8,
+          15
+        ]
+      },
+      "weight": {
+        "units": "grams",
+        "range": [
+          10,
+          30
+        ]
+      },
+      "grip_texture_depth": {
+        "units": "millimeters",
+        "range": [
+          0.1,
+          2
+        ]
+      }
+    },
+    "preference_weights": {
+      "handle_length": -41,
+      "grip_cushioning": 84,
+      "handle_diameter": 60,
+      "weight": -100,
+      "grip_texture_depth": -69
+    }
+  },
+  "sawhorse": {
+    "slug": "sawhorse",
+    "question": "Which pair of sawhorses would you prefer?",
+    "role": "a taxidermist",
+    "attributes": {
+      "weight_capacity": {
+        "units": "pounds",
+        "range": [
+          500,
+          2500
+        ]
+      },
+      "height": {
+        "units": "inches",
+        "range": [
+          25,
+          36
+        ]
+      },
+      "folded_thickness": {
+        "units": "inches",
+        "range": [
+          3,
+          8
+        ]
+      },
+      "support_beam_width": {
+        "units": "inches",
+        "range": [
+          2,
+          6
+        ]
+      },
+      "leg_spread_width": {
+        "units": "inches",
+        "range": [
+          24,
+          45
+        ]
+      }
+    },
+    "preference_weights": {
+      "weight_capacity": -20,
+      "height": 87,
+      "folded_thickness": -18,
+      "support_beam_width": 9,
+      "leg_spread_width": 100
+    }
+  },
+  "stockings": {
+    "slug": "stockings",
+    "question": "Which pair of stockings would you prefer?",
+    "role": "Travis Bickle",
+    "attributes": {
+      "denier_thickness": {
+        "units": "denier",
+        "range": [
+          5,
+          100
+        ]
+      },
+      "stretch_factor": {
+        "units": "percent stretch",
+        "range": [
+          10,
+          50
+        ]
+      },
+      "durability_rating": {
+        "units": "wears before running",
+        "range": [
+          1,
+          30
+        ]
+      },
+      "compression_level": {
+        "units": "mmHg",
+        "range": [
+          8,
+          30
+        ]
+      },
+      "length": {
+        "units": "inches",
+        "range": [
+          20,
+          40
+        ]
+      }
+    },
+    "preference_weights": {
+      "denier_thickness": -34,
+      "stretch_factor": 11,
+      "durability_rating": -100,
+      "compression_level": 26,
+      "length": -26
+    }
+  },
+  "fabric_markers": {
+    "slug": "fabric_markers",
+    "question": "Which fabric marker set would you prefer?",
+    "role": "Thoth",
+    "attributes": {
+      "number_of_colors": {
+        "units": "colors",
+        "range": [
+          6,
+          36
+        ]
+      },
+      "tip_width": {
+        "units": "millimeters",
+        "range": [
+          0.5,
+          5.0
+        ]
+      },
+      "color_vibrancy": {
+        "units": "percent of original color after 10 washes",
+        "range": [
+          40,
+          95
+        ]
+      },
+      "bleed_resistance": {
+        "units": "millimeters of spread",
+        "range": [
+          0.1,
+          2.0
+        ]
+      },
+      "drying_time": {
+        "units": "minutes",
+        "range": [
+          1,
+          30
+        ]
+      }
+    },
+    "preference_weights": {
+      "number_of_colors": 29,
+      "tip_width": 9,
+      "color_vibrancy": -100,
+      "bleed_resistance": 20,
+      "drying_time": -98
+    }
+  },
+  "cherry_pitter": {
+    "slug": "cherry_pitter",
+    "question": "Which cherry pitter would you prefer?",
+    "role": "Sherlock Holmes",
+    "attributes": {
+      "pitting_speed": {
+        "units": "cherries per minute",
+        "range": [
+          10,
+          60
+        ]
+      },
+      "splash_radius": {
+        "units": "inches",
+        "range": [
+          0,
+          12
+        ]
+      },
+      "pit_accuracy": {
+        "units": "percent of pits successfully removed",
+        "range": [
+          85,
+          100
+        ]
+      },
+      "fruit_damage": {
+        "units": "percent of cherries damaged",
+        "range": [
+          0,
+          20
+        ]
+      },
+      "cleaning_time": {
+        "units": "seconds",
+        "range": [
+          10,
+          120
+        ]
+      }
+    },
+    "preference_weights": {
+      "pitting_speed": -54,
+      "splash_radius": -70,
+      "pit_accuracy": -7,
+      "fruit_damage": 100,
+      "cleaning_time": 36
+    }
+  },
+  "amusement_park": {
+    "slug": "amusement_park",
+    "question": "Which amusement park would you prefer to visit?",
+    "role": "a gemologist",
+    "attributes": {
+      "number_of_rides": {
+        "units": "rides",
+        "range": [
+          15,
+          100
+        ]
+      },
+      "thrill_rides": {
+        "units": "number of rides",
+        "range": [
+          5,
+          30
+        ]
+      },
+      "park_size": {
+        "units": "acres",
+        "range": [
+          20,
+          500
+        ]
+      },
+      "shade_coverage": {
+        "units": "percent of walkways",
+        "range": [
+          20,
+          80
+        ]
+      },
+      "daily_shows": {
+        "units": "number of shows",
+        "range": [
+          5,
+          30
+        ]
+      }
+    },
+    "preference_weights": {
+      "number_of_rides": -31,
+      "thrill_rides": -100,
+      "park_size": 64,
+      "shade_coverage": -15,
+      "daily_shows": 39
+    }
+  },
+  "snow_brush": {
+    "slug": "snow_brush",
+    "question": "Which snow brush would you prefer?",
+    "role": "Johnny Truant",
+    "attributes": {
+      "brush_length": {
+        "units": "inches",
+        "range": [
+          24,
+          60
+        ]
+      },
+      "scraper_width": {
+        "units": "inches",
+        "range": [
+          4,
+          12
+        ]
+      },
+      "foam_grip_thickness": {
+        "units": "millimeters",
+        "range": [
+          5,
+          25
+        ]
+      },
+      "brush_bristle_density": {
+        "units": "bristles per square inch",
+        "range": [
+          100,
+          400
+        ]
+      },
+      "durability_rating": {
+        "units": "rating out of 10",
+        "range": [
+          1,
+          10
+        ]
+      }
+    },
+    "preference_weights": {
+      "brush_length": -17,
+      "scraper_width": -68,
+      "foam_grip_thickness": -100,
+      "brush_bristle_density": 10,
+      "durability_rating": -94
+    }
+  },
+  "safety_pins": {
+    "slug": "safety_pins",
+    "question": "Which safety pins would you prefer?",
+    "role": "Volodymyr Zelenskyy",
+    "attributes": {
+      "pin_length": {
+        "units": "millimeters",
+        "range": [
+          19,
+          70
+        ]
+      },
+      "spring_strength": {
+        "units": "newtons of closing force",
+        "range": [
+          1,
+          5
+        ]
+      },
+      "rust_resistance": {
+        "units": "hours in humid conditions",
+        "range": [
+          24,
+          1000
+        ]
+      },
+      "clasp_security": {
+        "units": "newtons to accidentally open",
+        "range": [
+          2,
+          10
+        ]
+      },
+      "bend_resistance": {
+        "units": "newtons before deformation",
+        "range": [
+          5,
+          25
+        ]
+      }
+    },
+    "preference_weights": {
+      "pin_length": -48,
+      "spring_strength": -82,
+      "rust_resistance": 22,
+      "clasp_security": 50,
+      "bend_resistance": 100
+    }
+  },
+  "sewing_machine": {
+    "slug": "sewing_machine",
+    "question": "Which sewing machine would you prefer?",
+    "role": "Ender Wiggin",
+    "attributes": {
+      "max_sewing_speed": {
+        "units": "stitches per minute",
+        "range": [
+          500,
+          1500
+        ]
+      },
+      "throat_space": {
+        "units": "inches",
+        "range": [
+          6,
+          12
+        ]
+      },
+      "number_of_stitches": {
+        "units": "stitch types",
+        "range": [
+          10,
+          100
+        ]
+      },
+      "noise_level": {
+        "units": "decibels",
+        "range": [
+          60,
+          85
+        ]
+      },
+      "bobbin_capacity": {
+        "units": "yards of thread",
+        "range": [
+          50,
+          200
+        ]
+      }
+    },
+    "preference_weights": {
+      "max_sewing_speed": 13,
+      "throat_space": -58,
+      "number_of_stitches": 100,
+      "noise_level": -75,
+      "bobbin_capacity": -78
+    }
+  },
+  "pressure_cooker": {
+    "slug": "pressure_cooker",
+    "question": "Which pressure cooker would you prefer?",
+    "role": "Don Draper",
+    "attributes": {
+      "capacity": {
+        "units": "quarts",
+        "range": [
+          4,
+          12
+        ]
+      },
+      "max_pressure": {
+        "units": "psi",
+        "range": [
+          12,
+          15
+        ]
+      },
+      "heat_up_time": {
+        "units": "minutes",
+        "range": [
+          5,
+          15
+        ]
+      },
+      "warranty_length": {
+        "units": "years",
+        "range": [
+          1,
+          10
+        ]
+      },
+      "weight": {
+        "units": "pounds",
+        "range": [
+          3,
+          8
+        ]
+      }
+    },
+    "preference_weights": {
+      "capacity": 100,
+      "max_pressure": -83,
+      "heat_up_time": -44,
+      "warranty_length": 23,
+      "weight": 27
+    }
+  },
+  "necklace_stand": {
+    "slug": "necklace_stand",
+    "question": "Which necklace stand would you prefer?",
+    "role": "Anton Chigurh",
+    "attributes": {
+      "display_height": {
+        "units": "inches",
+        "range": [
+          8,
+          24
+        ]
+      },
+      "number_of_hooks": {
+        "units": "count",
+        "range": [
+          3,
+          15
+        ]
+      },
+      "base_stability": {
+        "units": "stability rating",
+        "range": [
+          1,
+          10
+        ]
+      },
+      "hook_spacing": {
+        "units": "inches",
+        "range": [
+          1,
+          4
+        ]
+      },
+      "rotation_smoothness": {
+        "units": "smoothness rating",
+        "range": [
+          1,
+          10
+        ]
+      }
+    },
+    "preference_weights": {
+      "display_height": -36,
+      "number_of_hooks": -46,
+      "base_stability": 100,
+      "hook_spacing": -74,
+      "rotation_smoothness": -44
+    }
+  },
+  "soccer_ball": {
+    "slug": "soccer_ball",
+    "question": "Which soccer ball would you prefer?",
+    "role": "Émilie du Châtelet",
+    "attributes": {
+      "water_resistance": {
+        "units": "water resistance rating",
+        "range": [
+          1,
+          10
+        ]
+      },
+      "durability": {
+        "units": "months of regular use",
+        "range": [
+          6,
+          36
+        ]
+      },
+      "air_retention": {
+        "units": "days between inflation needed",
+        "range": [
+          7,
+          60
+        ]
+      },
+      "shape_retention": {
+        "units": "shape retention rating",
+        "range": [
+          1,
+          10
+        ]
+      },
+      "visibility": {
+        "units": "visibility rating",
+        "range": [
+          1,
+          10
+        ]
+      }
+    },
+    "preference_weights": {
+      "water_resistance": -1,
+      "durability": 48,
+      "air_retention": -42,
+      "shape_retention": 32,
+      "visibility": 100
+    }
+  }
+}

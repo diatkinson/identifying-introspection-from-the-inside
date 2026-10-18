@@ -1,0 +1,40 @@
+[project]
+name = "identifying-introspection"
+version = "1.0.0"
+description = "Code for 'Identifying Introspection From the Inside' (Atkinson, Plunkett & Bau, 2026)"
+readme = "README.md"
+license = "MIT"
+authors = [
+    { name = "David I. Atkinson" },
+    { name = "Dillon Plunkett" },
+    { name = "David Bau" },
+]
+requires-python = ">=3.12"
+dependencies = [
+    "torch>=2.6",
+    "transformers>=5.5",
+    "peft>=0.18.2",
+    "accelerate>=1.0",
+    "bitsandbytes>=0.45; sys_platform == 'linux'",
+    "huggingface_hub>=0.30",
+    "numpy",
+    "pandas",
+    "pyarrow",
+    "scikit-learn",
+    "frozendict",
+    "loguru",
+    "pyyaml",
+]
+
+[project.optional-dependencies]
+wandb = ["wandb"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 120
